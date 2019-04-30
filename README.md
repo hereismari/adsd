@@ -1,2 +1,2 @@
 # adsd
-Atividades da disciplina de Avaliação de Desemepnho de Sistemas Discretos
+Atividades da disciplina de Avaliação de Desempenho de Sistemas Discretos
