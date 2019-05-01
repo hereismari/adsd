@@ -69,17 +69,23 @@ class Scheduler:
         event = Event(event_type=EventType.CHEGADA_2)
         self.schedule_event(event, seconds + self.uniform2.sample())
 
+    def _get_next_event(self, seconds):
+        time_next_event, next_event = min(self.timeline)
+        if time_next_event != seconds:
+            return None
+        else:
+            heappop(self.timeline)
+            self.log_event(next_event, seconds)
+            return next_event
+
     def check_state(self, seconds):
         if not len(self.timeline):
             self.state = SchedulerState.FIM
             return
-            
-        time_next_event, next_event = min(self.timeline)
-        if time_next_event != seconds:
+        
+        next_event = self._get_next_event(seconds)
+        if not next_event:
             return
-        heappop(self.timeline)
-
-        self.log_event(next_event, seconds)
 
         if next_event.type == EventType.CHEGADA_1:
             if self.state == SchedulerState.FREE:
