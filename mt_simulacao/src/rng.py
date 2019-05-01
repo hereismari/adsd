@@ -28,9 +28,6 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
     """
     def __init__(self, multi_factor:int = 1103515245, add_factor:int = 12345, mod:int = 8765, seed=333):
         super().__init__(seed)
-        if multi_factor >= mod or add_factor >= mod:
-            raise ValueError('multi_factor e add_factor não'
-                             'devem ser maiores que o mod.')
         self.multi_factor = multi_factor
         self.add_factor = add_factor
         self.mod = mod
@@ -50,7 +47,7 @@ class UniformDistribution(RandomNumberGenerator):
         self.lower_bound = lower_bound
         self.upper_bound = upper_bound
         
-        self.mod = (lower_bound - upper_bound) + 1
+        self.mod = (upper_bound - lower_bound) + 1
         self.seed = seed
         self.mcg = MixedCongruentialGenerator(seed=self.seed, mod=self.mod)
 
