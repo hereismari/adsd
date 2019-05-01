@@ -5,17 +5,12 @@ from abc import ABC, abstractmethod
 class RandomNumberGenerator(ABC):
     """A random number generator interface."""
 
-    def __init__(self, seed=333):
+    def __init__(self, seed: int = 333):
         self.seed = seed
 
     @abstractmethod
-    def sample(self, is_discrete:bool = True):
-        """Sample a value from the generator.
-        
-        Args:
-            is_discrete: If True samples from a discrete distribution,
-            otherwise samples from a continous distribution.
-        """
+    def sample(self):
+        """Sample a value from the generator."""
         pass
 
 
@@ -26,7 +21,8 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
     with care, then the generator produces a uniform distribution of
     integers from 0 to `mod` - 1.
     """
-    def __init__(self, multi_factor:int = 1103515245, add_factor:int = 12345, mod:int = 8765, seed=333):
+    def __init__(self, multi_factor: int = 1103515245,
+                 add_factor: int = 12345, mod: int = 8765, seed=333):
         super().__init__(seed)
         self.multi_factor = multi_factor
         self.add_factor = add_factor
@@ -42,11 +38,11 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
 class UniformDistribution(RandomNumberGenerator):
     """Uniform distribution random number generator."""
 
-    def __init__(self, lower_bound:int, upper_bound:int, seed:int):
+    def __init__(self, lower_bound: int, upper_bound: int, seed: int):
         super().__init__(self)
         self.lower_bound = lower_bound
         self.upper_bound = upper_bound
-        
+
         self.mod = (upper_bound - lower_bound) + 1
         self.seed = seed
         self.mcg = MixedCongruentialGenerator(seed=self.seed, mod=self.mod)

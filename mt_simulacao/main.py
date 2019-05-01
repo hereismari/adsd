@@ -1,5 +1,8 @@
 import argparse
 import logging
+
+from src.scheduler import Scheduler
+
 logging.basicConfig(
     level=logging.INFO,
     format="[%(levelname)s] %(message)s",
@@ -7,9 +10,6 @@ logging.basicConfig(
         logging.FileHandler("log.txt"),
         logging.StreamHandler()
     ])
-
-from src.scheduler import Scheduler
-
 
 parser = argparse.ArgumentParser(description='Miniteste de simulação.')
 parser.add_argument('--simulation_speed', type=float, default=1,

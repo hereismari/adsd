@@ -10,7 +10,7 @@ class EventType(Enum):
 
 
 class Event:
-    def __init__(self, event_type:EventType, name:str=None):
+    def __init__(self, event_type: EventType, name: str = None):
         self.name = name if name else namegenerator.gen()
         self.type = event_type
 
@@ -22,4 +22,3 @@ class Event:
 
     def __lt__(self, other_event):
         return False
-

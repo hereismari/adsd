@@ -1,5 +1,5 @@
 from enum import Enum
-from heapq import *
+from heapq import heappop, heappush
 import logging
 import time
 
@@ -17,7 +17,7 @@ class SchedulerState(Enum):
 
 class Scheduler:
 
-    def __init__(self, simulation_speed:int = 1):
+    def __init__(self, simulation_speed: int = 1):
         self.simulation_speed = simulation_speed
         self.uniform_service_time = UniformDistribution(seed=1, lower_bound=2, upper_bound=6)
 
@@ -38,7 +38,7 @@ class Scheduler:
         self.schedule_start_queue1(0)
         self.schedule_start_queue2(0)
 
-    def run(self, run_time=300):
+    def run(self, run_time: int = 300):
         seconds = 0
         while seconds < run_time and self.state != SchedulerState.FINISHED:
             time.sleep(self.simulation_speed)
@@ -50,8 +50,12 @@ class Scheduler:
             event.name, event.type, seconds))
         logging.info('Elementos na Fila 1: {}'.format(len(self.queue1)))
         logging.info('Elementos na Fila 2: {}'.format(len(self.queue2)))
-        element_in_service = self.element_in_service.name if self.state == SchedulerState.BUSY else 'Nenhum'
-        logging.info('Elemento no serviço: {}'.format(element_in_service))
+        
+        if self.state == SchedulerState.BUSY:
+            element_in_service = self.element_in_service.name
+        else:
+            element_in_service = 'Nenhum'
+        logging.info('Elemento em serviço: {}'.format(element_in_service))
 
     def schedule_event(self, event, event_time):
         heappush(self.timeline, (event_time, event))        
@@ -73,14 +77,13 @@ class Scheduler:
         time_next_event, next_event = min(self.timeline)
         if time_next_event != seconds:
             return None
-        else:
-            heappop(self.timeline)
-            self.log_event(next_event, seconds)
-            return next_event
+        heappop(self.timeline)
+        self.log_event(next_event, seconds)
+        return next_event
 
     def check_state(self, seconds):
         if not len(self.timeline):
-            self.state = SchedulerState.FIM
+            self.state = SchedulerState.FINISHED
             return
         
         next_event = self._get_next_event(seconds)
@@ -102,9 +105,9 @@ class Scheduler:
                 self.queue2.append(next_event)
             self.schedule_start_queue2(seconds)
         elif next_event.type == EventType.FIM_DE_SERVICO:
-            if not len(self.queue1) and not len(self.queue2):
+            if not self.queue1 and not self.queue2:
                 self.state = SchedulerState.FREE
-            elif len(self.queue1):
+            elif self.queue1:
                 next_event = self.queue1.pop(0)
                 self.schedule_end_of_service(next_event, seconds)
             else:
