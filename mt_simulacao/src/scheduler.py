@@ -19,7 +19,7 @@ class Scheduler:
 
     def __init__(self, simulation_speed: int = 1):
         self.simulation_speed = simulation_speed
-        self.uniform_service_time = UniformDistribution(seed=1, lower_bound=2, upper_bound=6)
+        self.uniform_service_time = UniformDistribution(lower_bound=2, upper_bound=6)
 
         self.current_customer = 0
         self.state = SchedulerState.FREE
@@ -28,11 +28,11 @@ class Scheduler:
 
         # Type 1
         self.queue1 = []
-        self.uniform1 = UniformDistribution(seed=2, lower_bound=1, upper_bound=12)
+        self.uniform1 = UniformDistribution(lower_bound=1, upper_bound=12)
 
         # Type 2
         self.queue2 = []
-        self.uniform2 = UniformDistribution(seed=3, lower_bound=1, upper_bound=4)
+        self.uniform2 = UniformDistribution(lower_bound=1, upper_bound=4)
 
         # Schedule one event of each type
         self.schedule_start_queue1(0)
@@ -82,8 +82,9 @@ class Scheduler:
         return next_event
 
     def check_state(self, seconds):
-        if not len(self.timeline):
+        if not self.timeline and not self.queue1 and not self.queue2:
             self.state = SchedulerState.FINISHED
+            logging.info('Fim da execução.')
             return
         
         next_event = self._get_next_event(seconds)

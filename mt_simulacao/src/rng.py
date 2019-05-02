@@ -1,6 +1,9 @@
 # coding: utf-8
 from abc import ABC, abstractmethod
 
+import numpy as np
+np.random.seed(7)
+
 
 class RandomNumberGenerator(ABC):
     """A random number generator interface."""
@@ -35,7 +38,7 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
         return sampled_value
 
 
-class UniformDistribution(RandomNumberGenerator):
+class UniformDistributionMCG(RandomNumberGenerator):
     """Uniform distribution random number generator."""
 
     def __init__(self, lower_bound: int, upper_bound: int, seed: int):
@@ -49,3 +52,15 @@ class UniformDistribution(RandomNumberGenerator):
 
     def sample(self):
         return self.mcg.sample() + self.lower_bound
+
+
+class UniformDistribution(RandomNumberGenerator):
+    """Uniform distribution random number generator."""
+
+    def __init__(self, lower_bound: int, upper_bound: int):
+        super().__init__(self)
+        self.lower_bound = lower_bound
+        self.upper_bound = upper_bound
+        
+    def sample(self):
+        return np.random.randint(low=self.lower_bound, high=(self.upper_bound + 1))
