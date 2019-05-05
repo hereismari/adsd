@@ -12,7 +12,6 @@ from src.rng import UniformDistribution
 class SchedulerState(Enum):
     FREE = 1
     BUSY = 2
-    FINISHED = 3
 
 
 class Scheduler:
@@ -40,7 +39,7 @@ class Scheduler:
 
     def run(self, run_time: int = 300):
         seconds = 0
-        while seconds < run_time and self.state != SchedulerState.FINISHED:
+        while seconds < run_time:
             time.sleep(self.simulation_speed)
             seconds += 1
             self.check_state(seconds)
@@ -82,11 +81,6 @@ class Scheduler:
         return next_event
 
     def check_state(self, seconds):
-        if not self.timeline and not self.queue1 and not self.queue2:
-            self.state = SchedulerState.FINISHED
-            logging.info('Fim da execução.')
-            return
-        
         next_event = self._get_next_event(seconds)
         if not next_event:
             return

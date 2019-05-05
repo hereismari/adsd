@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(description='Miniteste de simulação.')
 parser.add_argument('--simulation_speed', type=float, default=1,
                     help='Velocidade de 1 segundo. Exemplo: se 0.5, '
                          '1 segundo de simulação = 0.5 segundos reais.')
-parser.add_argument('--simulation_time', type=int, default=1000,
+parser.add_argument('--simulation_time', type=int, default=500,
                     help='Tempo de simulação.')
 
 
