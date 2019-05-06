@@ -23,6 +23,15 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
     If one chooses the values of `multi_factor`, `add_factor` and `mod`
     with care, then the generator produces a uniform distribution of
     integers from 0 to `mod` - 1.
+
+    Assumption: mod > 0 and multi_factor < mod, add_factor < mod, X0 < mod.
+
+    The LCG has full period if and only if the following three
+    conditions hold (Hull and Dobell, 1962):
+        1. The only positive integer that (exactly) divides both mod and add_factor
+        is 1
+        2. If q is a prime number that divides mod, then q divides multi_factor-1
+        3. If 4 divides mod, then 4 divides multi_factor-1 
     """
     def __init__(self, multi_factor: int = 1103515245,
                  add_factor: int = 12345, mod: int = 8765, seed=333):
@@ -41,14 +50,13 @@ class MixedCongruentialGenerator(RandomNumberGenerator):
 class UniformDistributionMCG(RandomNumberGenerator):
     """Uniform distribution random number generator."""
 
-    def __init__(self, lower_bound: int, upper_bound: int, seed: int):
+    def __init__(self, lower_bound: int, upper_bound: int, **kwargs):
         super().__init__(self)
         self.lower_bound = lower_bound
         self.upper_bound = upper_bound
 
         self.mod = (upper_bound - lower_bound) + 1
-        self.seed = seed
-        self.mcg = MixedCongruentialGenerator(seed=self.seed, mod=self.mod)
+        self.mcg = MixedCongruentialGenerator(mod=self.mod, **kwargs)
 
     def sample(self):
         return self.mcg.sample() + self.lower_bound
