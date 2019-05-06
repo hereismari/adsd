@@ -86,6 +86,20 @@ class Scheduler:
         self.log_event(next_event, seconds)
         return next_event
 
+    def _change_state_to_busy(self, next_event, seconds):
+        self.state = SchedulerState.BUSY
+        self.schedule_end_of_service(next_event, seconds)
+
+    def _check_queues(self, seconds):
+        if not self.queue1 and not self.queue2:
+            self.state = SchedulerState.FREE
+        elif self.queue1:
+            queue_event = self.queue1.pop(0)
+            self.schedule_end_of_service(queue_event, seconds)
+        else:
+            queue_event = self.queue2.pop(0)
+            self.schedule_end_of_service(queue_event, seconds)
+
     def check_state(self, seconds):
         next_event = self._get_next_event(seconds)
         if not next_event:
@@ -93,26 +107,17 @@ class Scheduler:
 
         if next_event.type == EventType.CHEGADA_1:
             if self.state == SchedulerState.FREE:
-                self.state = SchedulerState.BUSY
-                self.schedule_end_of_service(next_event, seconds)
+                self._change_state_to_busy(next_event, seconds)
             elif self.state == SchedulerState.BUSY:
                 self.queue1.append(next_event)
             self.schedule_start_queue1(seconds)
         elif next_event.type == EventType.CHEGADA_2:
             if self.state == SchedulerState.FREE:
-                self.state = SchedulerState.BUSY
-                self.schedule_end_of_service(next_event, seconds)
+                self._change_state_to_busy(next_event, seconds)
             elif self.state == SchedulerState.BUSY:
                 self.queue2.append(next_event)
             self.schedule_start_queue2(seconds)
         elif next_event.type == EventType.FIM_DE_SERVICO:
-            if not self.queue1 and not self.queue2:
-                self.state = SchedulerState.FREE
-            elif self.queue1:
-                next_event = self.queue1.pop(0)
-                self.schedule_end_of_service(next_event, seconds)
-            else:
-                next_event = self.queue2.pop(0)
-                self.schedule_end_of_service(next_event, seconds)
+            self._check_queues(seconds)
         
         self.check_state(seconds)
