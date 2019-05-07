@@ -24,7 +24,6 @@ class Scheduler:
                                                            multi_factor=1,
                                                            add_factor=3,)
 
-        self.current_customer = 0
         self.state = SchedulerState.FREE
         self.element_in_service = None
         self.timeline = []
@@ -32,7 +31,7 @@ class Scheduler:
         # Type 1
         self.queue1 = []
         self.uniform1 = UniformDistributionMCG(lower_bound=1, upper_bound=12,
-                                               seed=3, multi_factor=7, add_factor=5)
+                                               seed=11, multi_factor=7, add_factor=5)
 
         # Type 2
         self.queue2 = []
@@ -51,7 +50,7 @@ class Scheduler:
             self.check_state(seconds)
 
     def log_event(self, event, seconds):
-        logging.info('Nome do evento: {}, Tipo de evento: {}, Momento do evento: {}'.format(
+        logging.info('Nome do elemento: {}, Tipo de evento: {}, Momento do evento: {}'.format(
             event.name, event.type, seconds))
         logging.info('Elementos na Fila 1: {}'.format(len(self.queue1)))
         logging.info('Elementos na Fila 2: {}'.format(len(self.queue2)))
