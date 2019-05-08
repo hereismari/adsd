@@ -10,7 +10,7 @@ pip3 install -r requirements.txt
 
 ```
 python3 main.py --simulation_speed 1  # velocidade normal
-python3 main.py --simulation_speed 0.1  # rodar mais rapido
+python3 main.py --simulation_speed 0.01  # rodar mais rapido
 ```
 
 ## Rodando testes
