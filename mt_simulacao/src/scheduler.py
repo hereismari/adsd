@@ -6,7 +6,7 @@ import time
 from src.event import Event
 from src.event import EventType
 
-from src.rng import UniformDistributionMCG
+from src.rng import UniformDistributionMCGBucket as Uniform
 
 
 class SchedulerState(Enum):
@@ -18,11 +18,10 @@ class Scheduler:
 
     def __init__(self, simulation_speed: int = 1):
         self.simulation_speed = simulation_speed
-        self.uniform_service_time = UniformDistributionMCG(lower_bound=2,
-                                                           upper_bound=6,
-                                                           seed=2,
-                                                           multi_factor=1,
-                                                           add_factor=3,)
+
+        self.uniform_service_time = Uniform(lower_bound=2, upper_bound=6, seed=2e31+3)
+        # self.uniform_service_time = UniformDistributionMCG(
+        #   lower_bound=2, upper_bound=6, seed=2, multi_factor=1, add_factor=3,)
 
         self.state = SchedulerState.FREE
         self.element_in_service = None
@@ -30,13 +29,15 @@ class Scheduler:
 
         # Type 1
         self.queue1 = []
-        self.uniform1 = UniformDistributionMCG(lower_bound=1, upper_bound=12,
-                                               seed=11, multi_factor=7, add_factor=5)
+        self.uniform1 = Uniform(lower_bound=1, upper_bound=12, seed=2e31)
+        # self.uniform1 = UniformDistributionMCG(lower_bound=1, upper_bound=12,
+        #                                       seed=11, multi_factor=7, add_factor=5)
 
         # Type 2
         self.queue2 = []
-        self.uniform2 = UniformDistributionMCG(lower_bound=1, upper_bound=4,
-                                               seed=3, multi_factor=1, add_factor=3)
+        self.uniform2 = Uniform(lower_bound=1, upper_bound=4, seed=2e30)
+        # self.uniform2 = UniformDistributionMCG(lower_bound=1, upper_bound=4,
+        #                                        seed=3, multi_factor=1, add_factor=3)
 
         # Schedule one event of each type
         self.schedule_start_queue1(0)
