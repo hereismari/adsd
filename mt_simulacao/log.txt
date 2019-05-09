@@ -1,0 +1,1660 @@
+[INFO] Nome do elemento: beady-harlequin-chicken, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 1
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 0
+[INFO] Elemento em serviço: Nenhum
+[INFO] Nome do elemento: tacky-razzmatazz-caracal, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 2
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 0
+[INFO] Elemento em serviço: beady-harlequin-chicken
+[INFO] Nome do elemento: gamy-rust-angora, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 3
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 1
+[INFO] Elemento em serviço: beady-harlequin-chicken
+[INFO] Nome do elemento: beady-harlequin-chicken, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 5
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 2
+[INFO] Elemento em serviço: beady-harlequin-chicken
+[INFO] Nome do elemento: geeky-orchid-gecko, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 6
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 1
+[INFO] Elemento em serviço: tacky-razzmatazz-caracal
+[INFO] Nome do elemento: geeky-scarlet-bobcat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 7
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 1
+[INFO] Elemento em serviço: tacky-razzmatazz-caracal
+[INFO] Nome do elemento: tacky-razzmatazz-caracal, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 9
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 2
+[INFO] Elemento em serviço: tacky-razzmatazz-caracal
+[INFO] Nome do elemento: lousy-lemon-affenpinscher, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 10
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 2
+[INFO] Elemento em serviço: geeky-orchid-gecko
+[INFO] Nome do elemento: frumpy-maroon-setter, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 11
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 3
+[INFO] Elemento em serviço: geeky-orchid-gecko
+[INFO] Nome do elemento: muzzy-green-tarsier, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 12
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 4
+[INFO] Elemento em serviço: geeky-orchid-gecko
+[INFO] Nome do elemento: baggy-blue-capuchin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 12
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 4
+[INFO] Elemento em serviço: geeky-orchid-gecko
+[INFO] Nome do elemento: geeky-orchid-gecko, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 12
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 5
+[INFO] Elemento em serviço: geeky-orchid-gecko
+[INFO] Nome do elemento: foggy-beige-dormouse, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 14
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 5
+[INFO] Elemento em serviço: muzzy-green-tarsier
+[INFO] Nome do elemento: squeaky-corn-hare, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 15
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 6
+[INFO] Elemento em serviço: muzzy-green-tarsier
+[INFO] Nome do elemento: muzzy-green-tarsier, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 16
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 6
+[INFO] Elemento em serviço: muzzy-green-tarsier
+[INFO] Nome do elemento: scanty-pear-dhole, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 18
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 6
+[INFO] Elemento em serviço: squeaky-corn-hare
+[INFO] Nome do elemento: squeaky-corn-hare, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 18
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 7
+[INFO] Elemento em serviço: squeaky-corn-hare
+[INFO] Nome do elemento: tasty-emerald-terrier, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 20
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 6
+[INFO] Elemento em serviço: gamy-rust-angora
+[INFO] Nome do elemento: cranky-cinnabar-tzu, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 21
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 7
+[INFO] Elemento em serviço: gamy-rust-angora
+[INFO] Nome do elemento: gamy-rust-angora, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 22
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 7
+[INFO] Elemento em serviço: gamy-rust-angora
+[INFO] Nome do elemento: shabby-denim-albatross, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 23
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 7
+[INFO] Elemento em serviço: cranky-cinnabar-tzu
+[INFO] Nome do elemento: flaky-amaranth-ant, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 24
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 8
+[INFO] Elemento em serviço: cranky-cinnabar-tzu
+[INFO] Nome do elemento: stinky-taupe-woodlouse, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 27
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 8
+[INFO] Elemento em serviço: cranky-cinnabar-tzu
+[INFO] Nome do elemento: cranky-cinnabar-tzu, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 27
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 9
+[INFO] Elemento em serviço: cranky-cinnabar-tzu
+[INFO] Nome do elemento: slimy-ultramarine-newt, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 29
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 9
+[INFO] Elemento em serviço: flaky-amaranth-ant
+[INFO] Nome do elemento: cozy-azure-deer, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 31
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 10
+[INFO] Elemento em serviço: flaky-amaranth-ant
+[INFO] Nome do elemento: shabby-plum-kangaroo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 31
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 10
+[INFO] Elemento em serviço: flaky-amaranth-ant
+[INFO] Nome do elemento: freaky-viridian-monkey, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 32
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 11
+[INFO] Elemento em serviço: flaky-amaranth-ant
+[INFO] Nome do elemento: flaky-amaranth-ant, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 32
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 12
+[INFO] Elemento em serviço: flaky-amaranth-ant
+[INFO] Nome do elemento: cozy-azure-deer, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 35
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 12
+[INFO] Elemento em serviço: cozy-azure-deer
+[INFO] Nome do elemento: snoopy-cobalt-chicken, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 36
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 11
+[INFO] Elemento em serviço: geeky-scarlet-bobcat
+[INFO] Nome do elemento: paltry-seashell-dragon, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 38
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 12
+[INFO] Elemento em serviço: geeky-scarlet-bobcat
+[INFO] Nome do elemento: geeky-scarlet-bobcat, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 38
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 13
+[INFO] Elemento em serviço: geeky-scarlet-bobcat
+[INFO] Nome do elemento: greasy-turquoise-barracuda, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 39
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 12
+[INFO] Elemento em serviço: lousy-lemon-affenpinscher
+[INFO] Nome do elemento: wheezy-green-bear, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 42
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 12
+[INFO] Elemento em serviço: lousy-lemon-affenpinscher
+[INFO] Nome do elemento: lousy-lemon-affenpinscher, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 42
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 13
+[INFO] Elemento em serviço: lousy-lemon-affenpinscher
+[INFO] Nome do elemento: lovely-denim-avocet, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 43
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 13
+[INFO] Elemento em serviço: greasy-turquoise-barracuda
+[INFO] Nome do elemento: sloppy-bistre-spitz, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 44
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 14
+[INFO] Elemento em serviço: greasy-turquoise-barracuda
+[INFO] Nome do elemento: greasy-turquoise-barracuda, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 46
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 15
+[INFO] Elemento em serviço: greasy-turquoise-barracuda
+[INFO] Nome do elemento: cranky-taupe-woodpecker, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 48
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 14
+[INFO] Elemento em serviço: frumpy-maroon-setter
+[INFO] Nome do elemento: slaphappy-peach-zonkey, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 48
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 14
+[INFO] Elemento em serviço: frumpy-maroon-setter
+[INFO] Nome do elemento: seedy-coral-corgi, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 51
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 15
+[INFO] Elemento em serviço: frumpy-maroon-setter
+[INFO] Nome do elemento: frumpy-maroon-setter, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 52
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 16
+[INFO] Elemento em serviço: frumpy-maroon-setter
+[INFO] Nome do elemento: crabby-lilac-balinese, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 53
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 16
+[INFO] Elemento em serviço: cranky-taupe-woodpecker
+[INFO] Nome do elemento: crabby-jade-crocodile, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 55
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 16
+[INFO] Elemento em serviço: cranky-taupe-woodpecker
+[INFO] Nome do elemento: lousy-thistle-weasel, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 56
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 17
+[INFO] Elemento em serviço: cranky-taupe-woodpecker
+[INFO] Nome do elemento: cranky-taupe-woodpecker, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 57
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 17
+[INFO] Elemento em serviço: cranky-taupe-woodpecker
+[INFO] Nome do elemento: stealthy-amethyst-fowl, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 58
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 17
+[INFO] Elemento em serviço: crabby-lilac-balinese
+[INFO] Nome do elemento: crabby-lilac-balinese, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 59
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 18
+[INFO] Elemento em serviço: crabby-lilac-balinese
+[INFO] Nome do elemento: ugly-tomato-schnauzer, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 62
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 18
+[INFO] Elemento em serviço: lousy-thistle-weasel
+[INFO] Nome do elemento: slaphappy-jade-alligator, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 62
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 18
+[INFO] Elemento em serviço: lousy-thistle-weasel
+[INFO] Nome do elemento: lousy-thistle-weasel, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 62
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 19
+[INFO] Elemento em serviço: lousy-thistle-weasel
+[INFO] Nome do elemento: lanky-zucchini-dodo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 65
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 19
+[INFO] Elemento em serviço: ugly-tomato-schnauzer
+[INFO] Nome do elemento: seedy-bistre-uguisu, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 66
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 20
+[INFO] Elemento em serviço: ugly-tomato-schnauzer
+[INFO] Nome do elemento: pasty-rust-worm, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 67
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 21
+[INFO] Elemento em serviço: ugly-tomato-schnauzer
+[INFO] Nome do elemento: ugly-tomato-schnauzer, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 67
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 22
+[INFO] Elemento em serviço: ugly-tomato-schnauzer
+[INFO] Nome do elemento: woozy-gold-kudu, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 68
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 21
+[INFO] Elemento em serviço: baggy-blue-capuchin
+[INFO] Nome do elemento: gloppy-pink-badger, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 68
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 21
+[INFO] Elemento em serviço: baggy-blue-capuchin
+[INFO] Nome do elemento: baggy-blue-capuchin, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 70
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 22
+[INFO] Elemento em serviço: baggy-blue-capuchin
+[INFO] Nome do elemento: crabby-olive-javanese, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 72
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 22
+[INFO] Elemento em serviço: woozy-gold-kudu
+[INFO] Nome do elemento: cloudy-myrtle-barb, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 74
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 23
+[INFO] Elemento em serviço: woozy-gold-kudu
+[INFO] Nome do elemento: woozy-gold-kudu, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 74
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 24
+[INFO] Elemento em serviço: woozy-gold-kudu
+[INFO] Nome do elemento: chummy-carmine-barracuda, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 78
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 23
+[INFO] Elemento em serviço: foggy-beige-dormouse
+[INFO] Nome do elemento: foggy-beige-dormouse, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 78
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 24
+[INFO] Elemento em serviço: foggy-beige-dormouse
+[INFO] Nome do elemento: flaky-cinnamon-dugong, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 79
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 23
+[INFO] Elemento em serviço: scanty-pear-dhole
+[INFO] Nome do elemento: scanty-pear-dhole, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 80
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 23
+[INFO] Elemento em serviço: scanty-pear-dhole
+[INFO] Nome do elemento: sloppy-linen-woodpecker, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 82
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 23
+[INFO] Elemento em serviço: flaky-cinnamon-dugong
+[INFO] Nome do elemento: greasy-teal-dolphin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 85
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 24
+[INFO] Elemento em serviço: flaky-cinnamon-dugong
+[INFO] Nome do elemento: flaky-cinnamon-dugong, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 85
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 25
+[INFO] Elemento em serviço: flaky-cinnamon-dugong
+[INFO] Nome do elemento: gamy-khaki-guppy, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 86
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 24
+[INFO] Elemento em serviço: tasty-emerald-terrier
+[INFO] Nome do elemento: hilly-sepia-loon, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 87
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 25
+[INFO] Elemento em serviço: tasty-emerald-terrier
+[INFO] Nome do elemento: snazzy-fuchsia-quail, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 88
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 25
+[INFO] Elemento em serviço: tasty-emerald-terrier
+[INFO] Nome do elemento: pokey-champagne-bulldog, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 88
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 25
+[INFO] Elemento em serviço: tasty-emerald-terrier
+[INFO] Nome do elemento: tasty-emerald-terrier, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 90
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 26
+[INFO] Elemento em serviço: tasty-emerald-terrier
+[INFO] Nome do elemento: shaky-pink-antelope, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 92
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 26
+[INFO] Elemento em serviço: hilly-sepia-loon
+[INFO] Nome do elemento: ready-gamboge-numbat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 92
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 26
+[INFO] Elemento em serviço: hilly-sepia-loon
+[INFO] Nome do elemento: pokey-pear-llama, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 95
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 27
+[INFO] Elemento em serviço: hilly-sepia-loon
+[INFO] Nome do elemento: hilly-sepia-loon, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 96
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 28
+[INFO] Elemento em serviço: hilly-sepia-loon
+[INFO] Nome do elemento: snazzy-fuchsia-quail, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 98
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 28
+[INFO] Elemento em serviço: snazzy-fuchsia-quail
+[INFO] Nome do elemento: chummy-indigo-bulldog, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 99
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 28
+[INFO] Elemento em serviço: shaky-pink-antelope
+[INFO] Nome do elemento: cheeky-turquoise-monster, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 100
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 29
+[INFO] Elemento em serviço: shaky-pink-antelope
+[INFO] Nome do elemento: cranky-lilac-sheepdog, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 102
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 29
+[INFO] Elemento em serviço: shaky-pink-antelope
+[INFO] Nome do elemento: shaky-pink-antelope, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 102
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 30
+[INFO] Elemento em serviço: shaky-pink-antelope
+[INFO] Nome do elemento: stinky-grey-wasp, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 104
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 30
+[INFO] Elemento em serviço: cheeky-turquoise-monster
+[INFO] Nome do elemento: tacky-corn-pinscher, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 105
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 31
+[INFO] Elemento em serviço: cheeky-turquoise-monster
+[INFO] Nome do elemento: cheeky-turquoise-monster, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 105
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 31
+[INFO] Elemento em serviço: cheeky-turquoise-monster
+[INFO] Nome do elemento: silly-fuchsia-crane, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 106
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 31
+[INFO] Elemento em serviço: tacky-corn-pinscher
+[INFO] Nome do elemento: tacky-corn-pinscher, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 107
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 32
+[INFO] Elemento em serviço: tacky-corn-pinscher
+[INFO] Nome do elemento: skimpy-lilac-bordeaux, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 109
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 31
+[INFO] Elemento em serviço: shabby-denim-albatross
+[INFO] Nome do elemento: snoopy-tan-shrew, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 112
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 32
+[INFO] Elemento em serviço: shabby-denim-albatross
+[INFO] Nome do elemento: snippy-purple-hare, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 113
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 32
+[INFO] Elemento em serviço: shabby-denim-albatross
+[INFO] Nome do elemento: shabby-denim-albatross, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 113
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 33
+[INFO] Elemento em serviço: shabby-denim-albatross
+[INFO] Nome do elemento: nerdy-amethyst-camel, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 117
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 33
+[INFO] Elemento em serviço: snoopy-tan-shrew
+[INFO] Nome do elemento: flimsy-lemon-pinscher, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 118
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 34
+[INFO] Elemento em serviço: snoopy-tan-shrew
+[INFO] Nome do elemento: snoopy-tan-shrew, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 118
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 34
+[INFO] Elemento em serviço: snoopy-tan-shrew
+[INFO] Nome do elemento: leaky-yellow-clam, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 119
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 34
+[INFO] Elemento em serviço: flimsy-lemon-pinscher
+[INFO] Nome do elemento: homely-aqua-impala, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 121
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 34
+[INFO] Elemento em serviço: flimsy-lemon-pinscher
+[INFO] Nome do elemento: flimsy-lemon-pinscher, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 121
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 35
+[INFO] Elemento em serviço: flimsy-lemon-pinscher
+[INFO] Nome do elemento: freaky-lemon-spitz, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 122
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 35
+[INFO] Elemento em serviço: leaky-yellow-clam
+[INFO] Nome do elemento: freaky-bronze-ray, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 124
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 36
+[INFO] Elemento em serviço: leaky-yellow-clam
+[INFO] Nome do elemento: leaky-yellow-clam, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 124
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 37
+[INFO] Elemento em serviço: leaky-yellow-clam
+[INFO] Nome do elemento: stinky-taupe-woodlouse, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 126
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 36
+[INFO] Elemento em serviço: stinky-taupe-woodlouse
+[INFO] Nome do elemento: bumpy-amaranth-iguana, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 127
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 35
+[INFO] Elemento em serviço: slimy-ultramarine-newt
+[INFO] Nome do elemento: paltry-taupe-cockroach, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 128
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 35
+[INFO] Elemento em serviço: slimy-ultramarine-newt
+[INFO] Nome do elemento: slimy-ultramarine-newt, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 128
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 36
+[INFO] Elemento em serviço: slimy-ultramarine-newt
+[INFO] Nome do elemento: hazy-cerise-discus, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 131
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 36
+[INFO] Elemento em serviço: bumpy-amaranth-iguana
+[INFO] Nome do elemento: randy-azure-dormouse, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 134
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 37
+[INFO] Elemento em serviço: bumpy-amaranth-iguana
+[INFO] Nome do elemento: bumpy-amaranth-iguana, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 134
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 38
+[INFO] Elemento em serviço: bumpy-amaranth-iguana
+[INFO] Nome do elemento: shaky-tomato-sheepdog, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 135
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 37
+[INFO] Elemento em serviço: shabby-plum-kangaroo
+[INFO] Nome do elemento: droopy-jade-horse, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 136
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 37
+[INFO] Elemento em serviço: shabby-plum-kangaroo
+[INFO] Nome do elemento: shabby-plum-kangaroo, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 136
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 38
+[INFO] Elemento em serviço: shabby-plum-kangaroo
+[INFO] Nome do elemento: lousy-carmine-hyena, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 137
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 38
+[INFO] Elemento em serviço: shaky-tomato-sheepdog
+[INFO] Nome do elemento: shaky-tomato-sheepdog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 140
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: shaky-tomato-sheepdog
+[INFO] Nome do elemento: scaly-bronze-squirt, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 141
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 38
+[INFO] Elemento em serviço: freaky-viridian-monkey
+[INFO] Nome do elemento: freaky-viridian-monkey, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 142
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: freaky-viridian-monkey
+[INFO] Nome do elemento: randy-brass-oyster, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 145
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 38
+[INFO] Elemento em serviço: snoopy-cobalt-chicken
+[INFO] Nome do elemento: breezy-scarlet-saola, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 146
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: snoopy-cobalt-chicken
+[INFO] Nome do elemento: thirsty-copper-wasp, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 148
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: snoopy-cobalt-chicken
+[INFO] Nome do elemento: snoopy-cobalt-chicken, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 148
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: snoopy-cobalt-chicken
+[INFO] Nome do elemento: leaky-champagne-dane, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 149
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 39
+[INFO] Elemento em serviço: breezy-scarlet-saola
+[INFO] Nome do elemento: breezy-scarlet-saola, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 151
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 40
+[INFO] Elemento em serviço: breezy-scarlet-saola
+[INFO] Nome do elemento: hilly-puce-chin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 153
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 40
+[INFO] Elemento em serviço: thirsty-copper-wasp
+[INFO] Nome do elemento: nerdy-flax-panda, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 155
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 41
+[INFO] Elemento em serviço: thirsty-copper-wasp
+[INFO] Nome do elemento: chewy-gamboge-kakapo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 155
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 41
+[INFO] Elemento em serviço: thirsty-copper-wasp
+[INFO] Nome do elemento: thirsty-copper-wasp, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 155
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 42
+[INFO] Elemento em serviço: thirsty-copper-wasp
+[INFO] Nome do elemento: nerdy-flax-panda, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 157
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 42
+[INFO] Elemento em serviço: nerdy-flax-panda
+[INFO] Nome do elemento: stealthy-cinnabar-cattle, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 158
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 41
+[INFO] Elemento em serviço: paltry-seashell-dragon
+[INFO] Nome do elemento: zippy-amber-chipmunk, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 159
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 42
+[INFO] Elemento em serviço: paltry-seashell-dragon
+[INFO] Nome do elemento: cheeky-pear-frise, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 160
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 42
+[INFO] Elemento em serviço: paltry-seashell-dragon
+[INFO] Nome do elemento: clammy-plum-falcon, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 162
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 42
+[INFO] Elemento em serviço: paltry-seashell-dragon
+[INFO] Nome do elemento: paltry-seashell-dragon, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 163
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 43
+[INFO] Elemento em serviço: paltry-seashell-dragon
+[INFO] Nome do elemento: queasy-amaranth-tang, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 165
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 43
+[INFO] Elemento em serviço: zippy-amber-chipmunk
+[INFO] Nome do elemento: zippy-amber-chipmunk, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 165
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 44
+[INFO] Elemento em serviço: zippy-amber-chipmunk
+[INFO] Nome do elemento: tacky-plum-dodo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 167
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 44
+[INFO] Elemento em serviço: cheeky-pear-frise
+[INFO] Nome do elemento: cheeky-pear-frise, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 167
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 45
+[INFO] Elemento em serviço: cheeky-pear-frise
+[INFO] Nome do elemento: sickly-chestnut-boar, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 168
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 44
+[INFO] Elemento em serviço: wheezy-green-bear
+[INFO] Nome do elemento: flimsy-chocolate-iguana, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 171
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 45
+[INFO] Elemento em serviço: wheezy-green-bear
+[INFO] Nome do elemento: scaly-ruby-bloodhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 171
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 45
+[INFO] Elemento em serviço: wheezy-green-bear
+[INFO] Nome do elemento: wheezy-green-bear, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 171
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 46
+[INFO] Elemento em serviço: wheezy-green-bear
+[INFO] Nome do elemento: snoopy-charcoal-stingray, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 174
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 46
+[INFO] Elemento em serviço: flimsy-chocolate-iguana
+[INFO] Nome do elemento: flimsy-chocolate-iguana, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 175
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 47
+[INFO] Elemento em serviço: flimsy-chocolate-iguana
+[INFO] Nome do elemento: snoopy-heliotrope-ocelot, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 176
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 46
+[INFO] Elemento em serviço: lovely-denim-avocet
+[INFO] Nome do elemento: lovely-denim-avocet, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 177
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 47
+[INFO] Elemento em serviço: lovely-denim-avocet
+[INFO] Nome do elemento: snazzy-cyan-corgi, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 178
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 46
+[INFO] Elemento em serviço: sloppy-bistre-spitz
+[INFO] Nome do elemento: scanty-harlequin-woodlouse, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 179
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 47
+[INFO] Elemento em serviço: sloppy-bistre-spitz
+[INFO] Nome do elemento: beady-viridian-cattle, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 182
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 47
+[INFO] Elemento em serviço: sloppy-bistre-spitz
+[INFO] Nome do elemento: randy-brown-yak, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 182
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 47
+[INFO] Elemento em serviço: sloppy-bistre-spitz
+[INFO] Nome do elemento: sloppy-bistre-spitz, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 182
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 48
+[INFO] Elemento em serviço: sloppy-bistre-spitz
+[INFO] Nome do elemento: chewy-coral-dragon, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 186
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 48
+[INFO] Elemento em serviço: scanty-harlequin-woodlouse
+[INFO] Nome do elemento: stealthy-rose-wolverine, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 186
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 48
+[INFO] Elemento em serviço: scanty-harlequin-woodlouse
+[INFO] Nome do elemento: scanty-harlequin-woodlouse, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 186
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 49
+[INFO] Elemento em serviço: scanty-harlequin-woodlouse
+[INFO] Nome do elemento: baggy-lavender-turkey, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 187
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 49
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: skimpy-corn-bat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 187
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 49
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: queasy-rose-bullfrog, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 188
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 50
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: surly-peach-angora, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 189
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 50
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: surly-cyan-serval, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 191
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 51
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: beady-viridian-cattle, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 192
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 52
+[INFO] Elemento em serviço: beady-viridian-cattle
+[INFO] Nome do elemento: muzzy-coral-badger, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 195
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 52
+[INFO] Elemento em serviço: chewy-coral-dragon
+[INFO] Nome do elemento: chewy-coral-dragon, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 195
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 53
+[INFO] Elemento em serviço: chewy-coral-dragon
+[INFO] Nome do elemento: messy-yellow-bear, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 198
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 53
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: whiny-amber-slug, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 199
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 54
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: gimpy-ochre-angelfish, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 199
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 54
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: homey-sapphire-ostrich, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 200
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 55
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: silly-blue-labradoodle, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 201
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 55
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: baggy-lavender-turkey, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 201
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 56
+[INFO] Elemento em serviço: baggy-lavender-turkey
+[INFO] Nome do elemento: lanky-eggplant-badger, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 203
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 56
+[INFO] Elemento em serviço: queasy-rose-bullfrog
+[INFO] Nome do elemento: droopy-wheat-magpie, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 204
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 57
+[INFO] Elemento em serviço: queasy-rose-bullfrog
+[INFO] Nome do elemento: shabby-razzmatazz-binturong, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 205
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 58
+[INFO] Elemento em serviço: queasy-rose-bullfrog
+[INFO] Nome do elemento: queasy-rose-bullfrog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 205
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 59
+[INFO] Elemento em serviço: queasy-rose-bullfrog
+[INFO] Nome do elemento: surly-linen-dugong, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 207
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 59
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: bluesy-denim-cow, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 209
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 59
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: flimsy-thistle-buffalo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 209
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 59
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: thirsty-heliotrope-gerbil, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 210
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 60
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: sleazy-persimmon-greyhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 211
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 61
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: whiny-amber-slug, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 211
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 62
+[INFO] Elemento em serviço: whiny-amber-slug
+[INFO] Nome do elemento: homey-sapphire-ostrich, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 213
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 62
+[INFO] Elemento em serviço: homey-sapphire-ostrich
+[INFO] Nome do elemento: droopy-zucchini-chinook, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 215
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 62
+[INFO] Elemento em serviço: surly-linen-dugong
+[INFO] Nome do elemento: tasty-lime-okapi, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 216
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 63
+[INFO] Elemento em serviço: surly-linen-dugong
+[INFO] Nome do elemento: surly-linen-dugong, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 218
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 64
+[INFO] Elemento em serviço: surly-linen-dugong
+[INFO] Nome do elemento: wiggy-goldenrod-cassowary, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 220
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 64
+[INFO] Elemento em serviço: bluesy-denim-cow
+[INFO] Nome do elemento: baggy-chestnut-beetle, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 221
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 65
+[INFO] Elemento em serviço: bluesy-denim-cow
+[INFO] Nome do elemento: bluesy-denim-cow, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 223
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 65
+[INFO] Elemento em serviço: bluesy-denim-cow
+[INFO] Nome do elemento: jumpy-myrtle-owl, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 224
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 65
+[INFO] Elemento em serviço: baggy-chestnut-beetle
+[INFO] Nome do elemento: skimpy-denim-hummingbird, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 225
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 66
+[INFO] Elemento em serviço: baggy-chestnut-beetle
+[INFO] Nome do elemento: baggy-chestnut-beetle, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 225
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 66
+[INFO] Elemento em serviço: baggy-chestnut-beetle
+[INFO] Nome do elemento: pokey-ochre-ocelot, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 227
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 66
+[INFO] Elemento em serviço: skimpy-denim-hummingbird
+[INFO] Nome do elemento: sickly-malachite-dalmatian, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 229
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 67
+[INFO] Elemento em serviço: skimpy-denim-hummingbird
+[INFO] Nome do elemento: skimpy-denim-hummingbird, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 230
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 68
+[INFO] Elemento em serviço: skimpy-denim-hummingbird
+[INFO] Nome do elemento: paltry-olive-emu, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 231
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 67
+[INFO] Elemento em serviço: slaphappy-peach-zonkey
+[INFO] Nome do elemento: slimy-asparagus-dhole, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 232
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 67
+[INFO] Elemento em serviço: slaphappy-peach-zonkey
+[INFO] Nome do elemento: zippy-ultramarine-wolfhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 233
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 67
+[INFO] Elemento em serviço: slaphappy-peach-zonkey
+[INFO] Nome do elemento: slaphappy-peach-zonkey, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 233
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 68
+[INFO] Elemento em serviço: slaphappy-peach-zonkey
+[INFO] Nome do elemento: scanty-sapphire-bullfrog, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 236
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 68
+[INFO] Elemento em serviço: paltry-olive-emu
+[INFO] Nome do elemento: paltry-olive-emu, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 236
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 69
+[INFO] Elemento em serviço: paltry-olive-emu
+[INFO] Nome do elemento: leaky-cream-lobster, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 239
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 69
+[INFO] Elemento em serviço: slimy-asparagus-dhole
+[INFO] Nome do elemento: goopy-heliotrope-hound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 241
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: slimy-asparagus-dhole
+[INFO] Nome do elemento: slimy-asparagus-dhole, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 241
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 71
+[INFO] Elemento em serviço: slimy-asparagus-dhole
+[INFO] Nome do elemento: lousy-gamboge-worm, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 242
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: seedy-coral-corgi
+[INFO] Nome do elemento: sloppy-dandelion-monkey, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 243
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: seedy-coral-corgi
+[INFO] Nome do elemento: dorky-zucchini-gar, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 244
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: seedy-coral-corgi
+[INFO] Nome do elemento: seedy-coral-corgi, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 244
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: seedy-coral-corgi
+[INFO] Nome do elemento: shaky-tan-woodpecker, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 245
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 70
+[INFO] Elemento em serviço: lousy-gamboge-worm
+[INFO] Nome do elemento: lousy-gamboge-worm, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 246
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 71
+[INFO] Elemento em serviço: lousy-gamboge-worm
+[INFO] Nome do elemento: shaky-turquoise-booby, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 248
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 71
+[INFO] Elemento em serviço: sloppy-dandelion-monkey
+[INFO] Nome do elemento: stuffy-cerise-mau, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 251
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 72
+[INFO] Elemento em serviço: sloppy-dandelion-monkey
+[INFO] Nome do elemento: snazzy-ruby-bison, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 251
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 72
+[INFO] Elemento em serviço: sloppy-dandelion-monkey
+[INFO] Nome do elemento: sloppy-dandelion-monkey, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 251
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 73
+[INFO] Elemento em serviço: sloppy-dandelion-monkey
+[INFO] Nome do elemento: goopy-asparagus-hummingbird, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 254
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 73
+[INFO] Elemento em serviço: dorky-zucchini-gar
+[INFO] Nome do elemento: dorky-zucchini-gar, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 256
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 74
+[INFO] Elemento em serviço: dorky-zucchini-gar
+[INFO] Nome do elemento: crabby-auburn-vulture, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 257
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 74
+[INFO] Elemento em serviço: stuffy-cerise-mau
+[INFO] Nome do elemento: scanty-brown-snake, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 258
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 75
+[INFO] Elemento em serviço: stuffy-cerise-mau
+[INFO] Nome do elemento: silly-bistre-antelope, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 260
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 75
+[INFO] Elemento em serviço: stuffy-cerise-mau
+[INFO] Nome do elemento: crabby-cinnamon-frigatebird, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 260
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 75
+[INFO] Elemento em serviço: stuffy-cerise-mau
+[INFO] Nome do elemento: stuffy-cerise-mau, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 261
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 76
+[INFO] Elemento em serviço: stuffy-cerise-mau
+[INFO] Nome do elemento: muzzy-copper-boar, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 263
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 76
+[INFO] Elemento em serviço: scanty-brown-snake
+[INFO] Nome do elemento: scanty-brown-snake, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 266
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 77
+[INFO] Elemento em serviço: scanty-brown-snake
+[INFO] Nome do elemento: slimy-myrtle-monster, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 267
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 77
+[INFO] Elemento em serviço: silly-bistre-antelope
+[INFO] Nome do elemento: stuffy-linen-binturong, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 269
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 78
+[INFO] Elemento em serviço: silly-bistre-antelope
+[INFO] Nome do elemento: sleazy-azure-tarantula, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 271
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 78
+[INFO] Elemento em serviço: silly-bistre-antelope
+[INFO] Nome do elemento: silly-bistre-antelope, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 271
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: silly-bistre-antelope
+[INFO] Nome do elemento: stuffy-linen-binturong, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 273
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: stuffy-linen-binturong
+[INFO] Nome do elemento: flimsy-ochre-mau, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 275
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 78
+[INFO] Elemento em serviço: crabby-jade-crocodile
+[INFO] Nome do elemento: gamy-goldenrod-corgi, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 275
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 78
+[INFO] Elemento em serviço: crabby-jade-crocodile
+[INFO] Nome do elemento: crabby-jade-crocodile, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 277
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: crabby-jade-crocodile
+[INFO] Nome do elemento: randy-seashell-gopher, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 278
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: flimsy-ochre-mau
+[INFO] Nome do elemento: flimsy-ochre-mau, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 279
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 80
+[INFO] Elemento em serviço: flimsy-ochre-mau
+[INFO] Nome do elemento: ready-coral-sheep, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 281
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: stealthy-amethyst-fowl
+[INFO] Nome do elemento: stealthy-amethyst-fowl, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 282
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 80
+[INFO] Elemento em serviço: stealthy-amethyst-fowl
+[INFO] Nome do elemento: leaky-cornflower-terrier, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 285
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: slaphappy-jade-alligator
+[INFO] Nome do elemento: skinny-celadon-millipede, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 285
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 79
+[INFO] Elemento em serviço: slaphappy-jade-alligator
+[INFO] Nome do elemento: slaphappy-jade-alligator, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 285
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 80
+[INFO] Elemento em serviço: slaphappy-jade-alligator
+[INFO] Nome do elemento: wheezy-celadon-eleuth, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 287
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 80
+[INFO] Elemento em serviço: leaky-cornflower-terrier
+[INFO] Nome do elemento: sickly-zucchini-sheepdog, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 289
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 81
+[INFO] Elemento em serviço: leaky-cornflower-terrier
+[INFO] Nome do elemento: stuffy-emerald-bombay, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 290
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 81
+[INFO] Elemento em serviço: leaky-cornflower-terrier
+[INFO] Nome do elemento: leaky-cornflower-terrier, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 291
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 82
+[INFO] Elemento em serviço: leaky-cornflower-terrier
+[INFO] Nome do elemento: geeky-ivory-mist, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 294
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 82
+[INFO] Elemento em serviço: sickly-zucchini-sheepdog
+[INFO] Nome do elemento: pretty-rust-pig, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 296
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 83
+[INFO] Elemento em serviço: sickly-zucchini-sheepdog
+[INFO] Nome do elemento: sickly-zucchini-sheepdog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 296
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 84
+[INFO] Elemento em serviço: sickly-zucchini-sheepdog
+[INFO] Nome do elemento: hasty-magnolia-urchin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 298
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 83
+[INFO] Elemento em serviço: lanky-zucchini-dodo
+[INFO] Nome do elemento: gummy-salmon-wallaby, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 300
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 84
+[INFO] Elemento em serviço: lanky-zucchini-dodo
+[INFO] Nome do elemento: shaggy-seashell-seahorse, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 301
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 84
+[INFO] Elemento em serviço: lanky-zucchini-dodo
+[INFO] Nome do elemento: lanky-zucchini-dodo, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 301
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 85
+[INFO] Elemento em serviço: lanky-zucchini-dodo
+[INFO] Nome do elemento: gummy-salmon-wallaby, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 304
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 85
+[INFO] Elemento em serviço: gummy-salmon-wallaby
+[INFO] Nome do elemento: breezy-sepia-spoonbill, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 305
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 84
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: pasty-beige-fowl, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 306
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 85
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: geeky-orchid-weasel, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 306
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 85
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: surly-olive-snail, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 307
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 86
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: muggy-vermilion-monster, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 310
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 87
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: seedy-bistre-uguisu, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 310
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 88
+[INFO] Elemento em serviço: seedy-bistre-uguisu
+[INFO] Nome do elemento: fuzzy-coral-goat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 311
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 88
+[INFO] Elemento em serviço: pasty-beige-fowl
+[INFO] Nome do elemento: crappy-jade-turkey, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 312
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 89
+[INFO] Elemento em serviço: pasty-beige-fowl
+[INFO] Nome do elemento: pasty-beige-fowl, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 314
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 90
+[INFO] Elemento em serviço: pasty-beige-fowl
+[INFO] Nome do elemento: skimpy-jade-moose, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 316
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 89
+[INFO] Elemento em serviço: pasty-rust-worm
+[INFO] Nome do elemento: whiny-goldenrod-bullfrog, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 316
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 89
+[INFO] Elemento em serviço: pasty-rust-worm
+[INFO] Nome do elemento: pasty-rust-worm, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 316
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 90
+[INFO] Elemento em serviço: pasty-rust-worm
+[INFO] Nome do elemento: clammy-malachite-sheep, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 317
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 90
+[INFO] Elemento em serviço: skimpy-jade-moose
+[INFO] Nome do elemento: queasy-burgundy-avocet, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 318
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 90
+[INFO] Elemento em serviço: skimpy-jade-moose
+[INFO] Nome do elemento: skimpy-jade-moose, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 318
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 91
+[INFO] Elemento em serviço: skimpy-jade-moose
+[INFO] Nome do elemento: foggy-persimmon-audemer, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 319
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 91
+[INFO] Elemento em serviço: clammy-malachite-sheep
+[INFO] Nome do elemento: clammy-malachite-sheep, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 320
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 92
+[INFO] Elemento em serviço: clammy-malachite-sheep
+[INFO] Nome do elemento: gloppy-pink-badger, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 322
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 91
+[INFO] Elemento em serviço: gloppy-pink-badger
+[INFO] Nome do elemento: wiggy-chestnut-dane, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 323
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 90
+[INFO] Elemento em serviço: crabby-olive-javanese
+[INFO] Nome do elemento: lumpy-heliotrope-barb, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 326
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 91
+[INFO] Elemento em serviço: crabby-olive-javanese
+[INFO] Nome do elemento: grumpy-myrtle-wolf, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 326
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 91
+[INFO] Elemento em serviço: crabby-olive-javanese
+[INFO] Nome do elemento: crabby-olive-javanese, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 326
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 92
+[INFO] Elemento em serviço: crabby-olive-javanese
+[INFO] Nome do elemento: clammy-goldenrod-gorilla, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 329
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 92
+[INFO] Elemento em serviço: lumpy-heliotrope-barb
+[INFO] Nome do elemento: sleazy-cerulean-wolfhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 331
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 93
+[INFO] Elemento em serviço: lumpy-heliotrope-barb
+[INFO] Nome do elemento: lumpy-heliotrope-barb, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 332
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 94
+[INFO] Elemento em serviço: lumpy-heliotrope-barb
+[INFO] Nome do elemento: pokey-burgundy-panda, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 334
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 93
+[INFO] Elemento em serviço: cloudy-myrtle-barb
+[INFO] Nome do elemento: frumpy-periwinkle-centipede, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 334
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 93
+[INFO] Elemento em serviço: cloudy-myrtle-barb
+[INFO] Nome do elemento: droopy-scarlet-guppy, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 336
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 94
+[INFO] Elemento em serviço: cloudy-myrtle-barb
+[INFO] Nome do elemento: cloudy-myrtle-barb, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 336
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 95
+[INFO] Elemento em serviço: cloudy-myrtle-barb
+[INFO] Nome do elemento: baggy-jade-spaniel, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 337
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 95
+[INFO] Elemento em serviço: pokey-burgundy-panda
+[INFO] Nome do elemento: cozy-plum-forest, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 338
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 95
+[INFO] Elemento em serviço: pokey-burgundy-panda
+[INFO] Nome do elemento: surly-wheat-butterfly, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 339
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 96
+[INFO] Elemento em serviço: pokey-burgundy-panda
+[INFO] Nome do elemento: pokey-burgundy-panda, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 341
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 97
+[INFO] Elemento em serviço: pokey-burgundy-panda
+[INFO] Nome do elemento: skinny-denim-anteater, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 343
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 97
+[INFO] Elemento em serviço: baggy-jade-spaniel
+[INFO] Nome do elemento: sickly-puce-chicken, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 344
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 98
+[INFO] Elemento em serviço: baggy-jade-spaniel
+[INFO] Nome do elemento: baggy-jade-spaniel, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 344
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 99
+[INFO] Elemento em serviço: baggy-jade-spaniel
+[INFO] Nome do elemento: bluesy-yellow-caracal, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 345
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 98
+[INFO] Elemento em serviço: chummy-carmine-barracuda
+[INFO] Nome do elemento: messy-heliotrope-tamarin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 347
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 98
+[INFO] Elemento em serviço: chummy-carmine-barracuda
+[INFO] Nome do elemento: chummy-carmine-barracuda, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 347
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 99
+[INFO] Elemento em serviço: chummy-carmine-barracuda
+[INFO] Nome do elemento: cloudy-xanthic-cassowary, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 348
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 99
+[INFO] Elemento em serviço: bluesy-yellow-caracal
+[INFO] Nome do elemento: breezy-pink-caiman, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 349
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 100
+[INFO] Elemento em serviço: bluesy-yellow-caracal
+[INFO] Nome do elemento: pokey-lilac-butterfly, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 349
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 100
+[INFO] Elemento em serviço: bluesy-yellow-caracal
+[INFO] Nome do elemento: bluesy-yellow-caracal, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 351
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 101
+[INFO] Elemento em serviço: bluesy-yellow-caracal
+[INFO] Nome do elemento: shabby-amber-tuatara, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 352
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 101
+[INFO] Elemento em serviço: breezy-pink-caiman
+[INFO] Nome do elemento: squeaky-linen-coati, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 354
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 102
+[INFO] Elemento em serviço: breezy-pink-caiman
+[INFO] Nome do elemento: gloppy-bronze-foxhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 354
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 102
+[INFO] Elemento em serviço: breezy-pink-caiman
+[INFO] Nome do elemento: breezy-pink-caiman, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 355
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 103
+[INFO] Elemento em serviço: breezy-pink-caiman
+[INFO] Nome do elemento: dorky-indigo-wolf, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 357
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 103
+[INFO] Elemento em serviço: squeaky-linen-coati
+[INFO] Nome do elemento: dorky-cobalt-wolverine, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 359
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 104
+[INFO] Elemento em serviço: squeaky-linen-coati
+[INFO] Nome do elemento: squeaky-linen-coati, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 360
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 105
+[INFO] Elemento em serviço: squeaky-linen-coati
+[INFO] Nome do elemento: sunny-indigo-abyssinian, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 362
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 104
+[INFO] Elemento em serviço: sloppy-linen-woodpecker
+[INFO] Nome do elemento: tasty-amber-urchin, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 363
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 104
+[INFO] Elemento em serviço: sloppy-linen-woodpecker
+[INFO] Nome do elemento: sloppy-linen-woodpecker, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 363
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 105
+[INFO] Elemento em serviço: sloppy-linen-woodpecker
+[INFO] Nome do elemento: woozy-puce-husky, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 366
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 105
+[INFO] Elemento em serviço: sunny-indigo-abyssinian
+[INFO] Nome do elemento: scaly-blue-binturong, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 366
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 105
+[INFO] Elemento em serviço: sunny-indigo-abyssinian
+[INFO] Nome do elemento: sunny-indigo-abyssinian, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 366
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 106
+[INFO] Elemento em serviço: sunny-indigo-abyssinian
+[INFO] Nome do elemento: pasty-chocolate-ibis, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 367
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 106
+[INFO] Elemento em serviço: woozy-puce-husky
+[INFO] Nome do elemento: sunny-maroon-fly, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 368
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 106
+[INFO] Elemento em serviço: woozy-puce-husky
+[INFO] Nome do elemento: woozy-puce-husky, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 368
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 107
+[INFO] Elemento em serviço: woozy-puce-husky
+[INFO] Nome do elemento: sunny-charcoal-lynx, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 369
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 107
+[INFO] Elemento em serviço: pasty-chocolate-ibis
+[INFO] Nome do elemento: ready-black-jaguar, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 370
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 108
+[INFO] Elemento em serviço: pasty-chocolate-ibis
+[INFO] Nome do elemento: pasty-chocolate-ibis, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 372
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 109
+[INFO] Elemento em serviço: pasty-chocolate-ibis
+[INFO] Nome do elemento: skimpy-linen-gorilla, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 374
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 108
+[INFO] Elemento em serviço: greasy-teal-dolphin
+[INFO] Nome do elemento: greasy-teal-dolphin, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 375
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 109
+[INFO] Elemento em serviço: greasy-teal-dolphin
+[INFO] Nome do elemento: gamy-razzmatazz-moose, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 376
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 108
+[INFO] Elemento em serviço: gamy-khaki-guppy
+[INFO] Nome do elemento: smelly-sepia-dalmatian, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 377
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 109
+[INFO] Elemento em serviço: gamy-khaki-guppy
+[INFO] Nome do elemento: foggy-mauve-budgerigar, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 378
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 109
+[INFO] Elemento em serviço: gamy-khaki-guppy
+[INFO] Nome do elemento: gamy-khaki-guppy, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 380
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 110
+[INFO] Elemento em serviço: gamy-khaki-guppy
+[INFO] Nome do elemento: stinky-ivory-fish, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 381
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 110
+[INFO] Elemento em serviço: smelly-sepia-dalmatian
+[INFO] Nome do elemento: lanky-xanthic-flounder, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 385
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 111
+[INFO] Elemento em serviço: smelly-sepia-dalmatian
+[INFO] Nome do elemento: snazzy-saffron-oyster, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 386
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: smelly-sepia-dalmatian
+[INFO] Nome do elemento: smelly-sepia-dalmatian, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 386
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: smelly-sepia-dalmatian
+[INFO] Nome do elemento: hilly-cerise-earwig, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 387
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: snazzy-saffron-oyster
+[INFO] Nome do elemento: snazzy-saffron-oyster, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 388
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 113
+[INFO] Elemento em serviço: snazzy-saffron-oyster
+[INFO] Nome do elemento: scummy-indigo-kiwi, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 390
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: pokey-champagne-bulldog
+[INFO] Nome do elemento: pokey-champagne-bulldog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 390
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 113
+[INFO] Elemento em serviço: pokey-champagne-bulldog
+[INFO] Nome do elemento: ready-gamboge-numbat, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 392
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: ready-gamboge-numbat
+[INFO] Nome do elemento: flaky-flax-beagle, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 394
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 111
+[INFO] Elemento em serviço: pokey-pear-llama
+[INFO] Nome do elemento: scanty-olive-lynx, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 395
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: pokey-pear-llama
+[INFO] Nome do elemento: crappy-aquamarine-bloodhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 395
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 112
+[INFO] Elemento em serviço: pokey-pear-llama
+[INFO] Nome do elemento: pokey-pear-llama, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 396
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 113
+[INFO] Elemento em serviço: pokey-pear-llama
+[INFO] Nome do elemento: snazzy-myrtle-swan, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 397
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 113
+[INFO] Elemento em serviço: scanty-olive-lynx
+[INFO] Nome do elemento: cranky-coral-pinscher, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 400
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 114
+[INFO] Elemento em serviço: scanty-olive-lynx
+[INFO] Nome do elemento: scanty-olive-lynx, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 401
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 115
+[INFO] Elemento em serviço: scanty-olive-lynx
+[INFO] Nome do elemento: cozy-champagne-manatee, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 404
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 114
+[INFO] Elemento em serviço: chummy-indigo-bulldog
+[INFO] Nome do elemento: ugly-azure-vulture, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 404
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 114
+[INFO] Elemento em serviço: chummy-indigo-bulldog
+[INFO] Nome do elemento: lousy-olivine-ray, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 405
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 115
+[INFO] Elemento em serviço: chummy-indigo-bulldog
+[INFO] Nome do elemento: messy-thistle-bracke, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 406
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 116
+[INFO] Elemento em serviço: chummy-indigo-bulldog
+[INFO] Nome do elemento: chummy-indigo-bulldog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 406
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 117
+[INFO] Elemento em serviço: chummy-indigo-bulldog
+[INFO] Nome do elemento: crabby-eggplant-bloodhound, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 407
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 117
+[INFO] Elemento em serviço: cozy-champagne-manatee
+[INFO] Nome do elemento: cozy-champagne-manatee, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 410
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 118
+[INFO] Elemento em serviço: cozy-champagne-manatee
+[INFO] Nome do elemento: cheeky-tan-chimpanzee, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 411
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 117
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: snippy-celadon-chihuahua, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 412
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 118
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: trippy-seashell-mist, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 413
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 119
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: messy-cobalt-wolfhound, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 414
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 120
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: chummy-vermilion-termite, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 415
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 120
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: skimpy-carmine-affenpinscher, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 416
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 120
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: cranky-lilac-sheepdog, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 416
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 121
+[INFO] Elemento em serviço: cranky-lilac-sheepdog
+[INFO] Nome do elemento: shaggy-tan-booby, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 418
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 121
+[INFO] Elemento em serviço: messy-cobalt-wolfhound
+[INFO] Nome do elemento: messy-cobalt-wolfhound, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 419
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 122
+[INFO] Elemento em serviço: messy-cobalt-wolfhound
+[INFO] Nome do elemento: stuffy-brown-ibis, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 420
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 122
+[INFO] Elemento em serviço: chummy-vermilion-termite
+[INFO] Nome do elemento: trippy-magenta-giraffe, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 421
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 123
+[INFO] Elemento em serviço: chummy-vermilion-termite
+[INFO] Nome do elemento: stuffy-corn-fish, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 422
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 124
+[INFO] Elemento em serviço: chummy-vermilion-termite
+[INFO] Nome do elemento: homey-ivory-barracuda, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 423
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 124
+[INFO] Elemento em serviço: chummy-vermilion-termite
+[INFO] Nome do elemento: chummy-vermilion-termite, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 423
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 124
+[INFO] Elemento em serviço: chummy-vermilion-termite
+[INFO] Nome do elemento: jumpy-emerald-weasel, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 424
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 124
+[INFO] Elemento em serviço: stuffy-corn-fish
+[INFO] Nome do elemento: paltry-seashell-retriever, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 426
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 125
+[INFO] Elemento em serviço: stuffy-corn-fish
+[INFO] Nome do elemento: stuffy-corn-fish, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 427
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 126
+[INFO] Elemento em serviço: stuffy-corn-fish
+[INFO] Nome do elemento: foggy-amaranth-rabbit, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 428
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 126
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: seedy-gamboge-coyote, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 429
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 126
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: slaphappy-green-anteater, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 431
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 127
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: queasy-white-hornet, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 432
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 128
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: clammy-saffron-discus, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 433
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 128
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: homey-ivory-barracuda, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 433
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 129
+[INFO] Elemento em serviço: homey-ivory-barracuda
+[INFO] Nome do elemento: foggy-amaranth-rabbit, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 435
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 129
+[INFO] Elemento em serviço: foggy-amaranth-rabbit
+[INFO] Nome do elemento: scaly-bistre-donkey, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 437
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 129
+[INFO] Elemento em serviço: queasy-white-hornet
+[INFO] Nome do elemento: fuzzy-tan-rat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 439
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 130
+[INFO] Elemento em serviço: queasy-white-hornet
+[INFO] Nome do elemento: shaggy-celadon-chimpanzee, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 440
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 131
+[INFO] Elemento em serviço: queasy-white-hornet
+[INFO] Nome do elemento: queasy-white-hornet, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 440
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 132
+[INFO] Elemento em serviço: queasy-white-hornet
+[INFO] Nome do elemento: stinky-grey-wasp, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 442
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 131
+[INFO] Elemento em serviço: stinky-grey-wasp
+[INFO] Nome do elemento: beady-mustard-coati, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 444
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 130
+[INFO] Elemento em serviço: silly-fuchsia-crane
+[INFO] Nome do elemento: cozy-alizarin-wolf, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 444
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 130
+[INFO] Elemento em serviço: silly-fuchsia-crane
+[INFO] Nome do elemento: wheezy-persimmon-buzzard, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 446
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 131
+[INFO] Elemento em serviço: silly-fuchsia-crane
+[INFO] Nome do elemento: silly-fuchsia-crane, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 447
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 132
+[INFO] Elemento em serviço: silly-fuchsia-crane
+[INFO] Nome do elemento: paltry-lilac-eleuth, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 450
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 132
+[INFO] Elemento em serviço: beady-mustard-coati
+[INFO] Nome do elemento: beady-mustard-coati, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 451
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 133
+[INFO] Elemento em serviço: beady-mustard-coati
+[INFO] Nome do elemento: greasy-asparagus-gharial, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 452
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 132
+[INFO] Elemento em serviço: skimpy-lilac-bordeaux
+[INFO] Nome do elemento: craggy-black-eagle, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 453
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 132
+[INFO] Elemento em serviço: skimpy-lilac-bordeaux
+[INFO] Nome do elemento: skanky-pink-saola, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 454
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 133
+[INFO] Elemento em serviço: skimpy-lilac-bordeaux
+[INFO] Nome do elemento: skimpy-lilac-bordeaux, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 455
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 134
+[INFO] Elemento em serviço: skimpy-lilac-bordeaux
+[INFO] Nome do elemento: homely-tan-leopard, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 458
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 134
+[INFO] Elemento em serviço: greasy-asparagus-gharial
+[INFO] Nome do elemento: greasy-asparagus-gharial, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 459
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 135
+[INFO] Elemento em serviço: greasy-asparagus-gharial
+[INFO] Nome do elemento: lumpy-peach-caiman, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 460
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 134
+[INFO] Elemento em serviço: snippy-purple-hare
+[INFO] Nome do elemento: stealthy-charcoal-wombat, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 461
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 135
+[INFO] Elemento em serviço: snippy-purple-hare
+[INFO] Nome do elemento: snappy-xanthic-coati, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 462
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 136
+[INFO] Elemento em serviço: snippy-purple-hare
+[INFO] Nome do elemento: snippy-purple-hare, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 462
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 136
+[INFO] Elemento em serviço: snippy-purple-hare
+[INFO] Nome do elemento: tasty-alizarin-chow, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 464
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 136
+[INFO] Elemento em serviço: snappy-xanthic-coati
+[INFO] Nome do elemento: snappy-xanthic-coati, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 465
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 137
+[INFO] Elemento em serviço: snappy-xanthic-coati
+[INFO] Nome do elemento: bluesy-tan-fowl, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 466
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 136
+[INFO] Elemento em serviço: nerdy-amethyst-camel
+[INFO] Nome do elemento: bluesy-wheat-kakapo, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 467
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 136
+[INFO] Elemento em serviço: nerdy-amethyst-camel
+[INFO] Nome do elemento: breezy-white-crane, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 468
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 137
+[INFO] Elemento em serviço: nerdy-amethyst-camel
+[INFO] Nome do elemento: nerdy-amethyst-camel, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 469
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 138
+[INFO] Elemento em serviço: nerdy-amethyst-camel
+[INFO] Nome do elemento: foggy-cornflower-sparrow, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 470
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 138
+[INFO] Elemento em serviço: bluesy-tan-fowl
+[INFO] Nome do elemento: bluesy-tan-fowl, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 471
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 139
+[INFO] Elemento em serviço: bluesy-tan-fowl
+[INFO] Nome do elemento: muzzy-goldenrod-quokka, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 473
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 138
+[INFO] Elemento em serviço: homely-aqua-impala
+[INFO] Nome do elemento: geeky-sepia-wildebeest, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 474
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 139
+[INFO] Elemento em serviço: homely-aqua-impala
+[INFO] Nome do elemento: snippy-sangria-coyote, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 475
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 140
+[INFO] Elemento em serviço: homely-aqua-impala
+[INFO] Nome do elemento: homely-aqua-impala, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 475
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 141
+[INFO] Elemento em serviço: homely-aqua-impala
+[INFO] Nome do elemento: cheeky-blue-ant, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 476
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 140
+[INFO] Elemento em serviço: freaky-lemon-spitz
+[INFO] Nome do elemento: sunny-sangria-tuatara, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 477
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 140
+[INFO] Elemento em serviço: freaky-lemon-spitz
+[INFO] Nome do elemento: freaky-lemon-spitz, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 477
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 141
+[INFO] Elemento em serviço: freaky-lemon-spitz
+[INFO] Nome do elemento: sloppy-rose-husky, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 478
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 141
+[INFO] Elemento em serviço: cheeky-blue-ant
+[INFO] Nome do elemento: tacky-bistre-snake, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 482
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 142
+[INFO] Elemento em serviço: cheeky-blue-ant
+[INFO] Nome do elemento: cranky-vermilion-malamute, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 482
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 142
+[INFO] Elemento em serviço: cheeky-blue-ant
+[INFO] Nome do elemento: cheeky-blue-ant, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 482
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 143
+[INFO] Elemento em serviço: cheeky-blue-ant
+[INFO] Nome do elemento: stinky-lavender-tarantula, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 483
+[INFO] Elementos na Fila 1: 0
+[INFO] Elementos na Fila 2: 143
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: silly-sepia-robin, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 484
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 143
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: sunny-bistre-olm, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 484
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 143
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: sloppy-chestnut-lobster, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 485
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 144
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: lanky-goldenrod-mayfly, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 487
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 145
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: tacky-bistre-snake, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 487
+[INFO] Elementos na Fila 1: 3
+[INFO] Elementos na Fila 2: 145
+[INFO] Elemento em serviço: tacky-bistre-snake
+[INFO] Nome do elemento: tacky-sangria-dragon, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 489
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 145
+[INFO] Elemento em serviço: stinky-lavender-tarantula
+[INFO] Nome do elemento: stinky-lavender-tarantula, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 489
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 146
+[INFO] Elemento em serviço: stinky-lavender-tarantula
+[INFO] Nome do elemento: whiny-tomato-maltese, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 490
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 146
+[INFO] Elemento em serviço: silly-sepia-robin
+[INFO] Nome do elemento: leaky-grey-macaw, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 490
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 146
+[INFO] Elemento em serviço: silly-sepia-robin
+[INFO] Nome do elemento: hasty-mauve-toad, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 492
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 147
+[INFO] Elemento em serviço: silly-sepia-robin
+[INFO] Nome do elemento: squirrely-wisteria-lizard, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 494
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 148
+[INFO] Elemento em serviço: silly-sepia-robin
+[INFO] Nome do elemento: silly-sepia-robin, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 495
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 149
+[INFO] Elemento em serviço: silly-sepia-robin
+[INFO] Nome do elemento: sloppy-wisteria-flounder, Tipo de evento: EventType.CHEGADA_1, Momento do evento: 496
+[INFO] Elementos na Fila 1: 1
+[INFO] Elementos na Fila 2: 149
+[INFO] Elemento em serviço: lanky-goldenrod-mayfly
+[INFO] Nome do elemento: ready-vermilion-quetzal, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 497
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 149
+[INFO] Elemento em serviço: lanky-goldenrod-mayfly
+[INFO] Nome do elemento: sleazy-dandelion-kudu, Tipo de evento: EventType.CHEGADA_2, Momento do evento: 500
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 150
+[INFO] Elemento em serviço: lanky-goldenrod-mayfly
+[INFO] Nome do elemento: lanky-goldenrod-mayfly, Tipo de evento: EventType.FIM_DE_SERVICO, Momento do evento: 500
+[INFO] Elementos na Fila 1: 2
+[INFO] Elementos na Fila 2: 151
+[INFO] Elemento em serviço: lanky-goldenrod-mayfly
