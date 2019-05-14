@@ -13,7 +13,20 @@ public class Disk extends Entity {
 	private Sim_port inA;
 	private Sim_port inB;
 	private Sim_port out;
-	
+
+	/**
+	 * Constructor of a Disk entity for this system implementation.
+	 *
+	 * Consists of calling the superclass {@link}Entity constructor
+	 * passing the name and the min/max parameters to calculate the
+	 * delay based on a uniform distribution.
+	 *
+	 * @param name {@link}String representing an unique identifier for the Disk.
+	 * @param min double representing the minimum value used on the
+	 * 			uniform distribution to calculate the delay.
+	 * @param max double representing the maximum value (not included)
+	 * 			used on the uniform distribution to calculate the delay.
+	 */
 	public Disk(String name, double min, double max) {
 		super(name, min, max);
 		this.initializePorts();
@@ -29,5 +42,4 @@ public class Disk extends Entity {
 		add_port(inB);
 		add_port(out);
 	}
-
 }
