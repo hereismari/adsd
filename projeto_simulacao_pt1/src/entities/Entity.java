@@ -1,7 +1,7 @@
 package entities;
 
 import eduni.simjava.*;
-import eduni.simjava.distributions.Sim_uniform_obj;
+import eduni.simjava.distributions.Sim_normal_obj;
 
 /**
  * Abstract class representing the base entity on the system.
@@ -12,7 +12,7 @@ import eduni.simjava.distributions.Sim_uniform_obj;
 public abstract class Entity extends Sim_entity {
 
 	private Sim_stat stat;
-	private Sim_uniform_obj delay;
+	private Sim_normal_obj delay;
 
 	/**
 	 * Constructor of the base entity for this system implementation.
@@ -23,12 +23,8 @@ public abstract class Entity extends Sim_entity {
 	 * as an uniform distribution according to parameters.
 	 *
 	 * @param name String representing the unique identifier of the entity.
-	 * @param min double representing the minimum value used on the
-	 * 			uniform distribution to calculate the delay.
-	 * @param max double representing the maximum value (not included)
-	 * 			used on the uniform distribution to calculate the delay.
 	 */
-	public Entity(String name, double min, double max) {
+	public Entity(String name, double mean, double avg) {
 		super(name);
 
         stat = new Sim_stat();
@@ -38,8 +34,14 @@ public abstract class Entity extends Sim_entity {
         stat.add_measure(Sim_stat.QUEUE_LENGTH);
         set_stat(stat);
 
-        delay = new Sim_uniform_obj("Delay", min, max);
-        add_generator(delay);
+        delay = new Sim_normal_obj(name.concat("Delay"), mean, avg);
+		add_generator(delay);
+		
+		this.initializePorts();
+	}
+
+	public Entity(String name, double mean) {
+		this(name, mean, 0.1);
 	}
 
 	/**
@@ -47,5 +49,9 @@ public abstract class Entity extends Sim_entity {
 	 * registry the ports with the {@link}add_port() SimJava method.
 	 */
 	protected abstract void initializePorts();
+
+	public double sample() {
+		return delay.sample();
+	}
 
 }
