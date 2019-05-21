@@ -1,3 +1,6 @@
+
+![](diagrama.png)
+
 ## Running
 
 ```
