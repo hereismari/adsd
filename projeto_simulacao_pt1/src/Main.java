@@ -16,7 +16,7 @@ public class Main {
 		LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 0.05, 0.00002);
 
 		// Connect entities
-		Sim_system.link_ports("Source", "Out", "LoadBalancer", "In");
+		Sim_system.link_ports("Source", "SourceOut1", "LoadBalancer", "LoadBalancerIn1");
 
 		Sim_system.run();
 	}

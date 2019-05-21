@@ -14,6 +14,14 @@ public abstract class Entity extends Sim_entity {
 	private Sim_stat stat;
 	private Sim_normal_obj delay;
 
+	private double[] probPorts;
+	private int numInPorts;
+
+	protected Sim_port[] inPorts;
+	protected Sim_port[] outPorts;
+
+	private String entityName;
+
 	/**
 	 * Constructor of the base entity for this system implementation.
 	 *
@@ -22,9 +30,8 @@ public abstract class Entity extends Sim_entity {
 	 * Statistics gatherers ({@link}Sim_stat) and calculates the delay
 	 * as an uniform distribution according to parameters.
 	 *
-	 * @param name String representing the unique identifier of the entity.
 	 */
-	public Entity(String name, double mean, double avg) {
+	public Entity(String name, double mean, double avg, int numInPorts, double[] probPorts) {
 		super(name);
 
         stat = new Sim_stat();
@@ -36,19 +43,31 @@ public abstract class Entity extends Sim_entity {
 
         delay = new Sim_normal_obj(name.concat("Delay"), mean, avg);
 		add_generator(delay);
-		
-		this.initializePorts();
+
+		this.entityName = name;
+		this.numInPorts = numInPorts;
+		this.probPorts = probPorts;
+		initializePorts();
 	}
 
-	public Entity(String name, double mean) {
-		this(name, mean, 0.1);
+	private Sim_port[] createPorts(String name, int numberOfPorts) {
+		Sim_port[] ports = new Sim_port[numberOfPorts];
+		for (int i = 0; i < numberOfPorts; i++) {
+			ports[i] = new Sim_port(name.concat(Integer.toString(i + 1)));
+			System.out.println(name.concat(Integer.toString(i + 1)));
+			add_port(ports[i]);
+		}
+		return ports;
 	}
 
 	/**
 	 * Initialize entity ports with proper names/identifiers and
 	 * registry the ports with the {@link}add_port() SimJava method.
 	 */
-	protected abstract void initializePorts();
+	protected void initializePorts() {
+		this.inPorts = createPorts(entityName.concat("In"), numInPorts);
+		this.outPorts = createPorts(entityName.concat("Out"), probPorts.length);
+	}
 
 	public double sample() {
 		return delay.sample();

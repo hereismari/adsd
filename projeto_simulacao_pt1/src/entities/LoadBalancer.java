@@ -12,9 +12,6 @@ import eduni.simjava.*;
  *
  */
 public class LoadBalancer extends Entity {
-	
-	private Sim_port in;
-	private Sim_port out;
 
 	/**
 	 * Constructor of a Load Balancer entity for this system implementation.
@@ -27,16 +24,7 @@ public class LoadBalancer extends Entity {
 	 * @param min double representing the minimum value used on the
 	 */
 	public LoadBalancer(String name, double mean, double avg) {
-		super(name, mean, avg);
-	}
-
-	@Override
-	protected void initializePorts() {
-		this.in = new Sim_port("In");
-		this.out = new Sim_port("Out");
-		
-		add_port(in);
-		add_port(out);
+		super(name, mean, avg, 1, new double[]{0.1, 0.5, 0.4});
 	}
 
 	public void body() {
