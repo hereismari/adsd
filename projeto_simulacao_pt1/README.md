@@ -1,7 +1,7 @@
 ## Running
 
 ```
-run.sh
+./run.sh
 ```
 
 Expected output:
