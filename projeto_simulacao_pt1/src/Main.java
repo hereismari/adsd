@@ -12,7 +12,7 @@ public class Main {
 		// interval around 0.2
 		Source source = new Source("Source", 0.2, 0.00001);
 
-		// TS around 0.2
+		// TS around 0.05
 		LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 0.05, 0.00002);
 
 		// Connect entities
