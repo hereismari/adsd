@@ -1,7 +1,10 @@
+
+![](diagrama.png)
+
 ## Running
 
 ```
-run.sh
+./run.sh
 ```
 
 Expected output:

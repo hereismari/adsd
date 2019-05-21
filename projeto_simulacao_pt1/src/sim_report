@@ -6,18 +6,82 @@
 
 Version: SimJava 2.0
 
-Simulation date:         18 de Maio de 2019
-Simulation start time:   2h6min28s BST
-Simulation end time:     2h6min28s BST
+Simulation date:         21 de Maio de 2019
+Simulation start time:   15h35min14s BST
+Simulation end time:     15h35min14s BST
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    0.0
+Total simulated time:    19.9660955553333
 Total transient time:    0.0
-Total steady state time: 0.0
+Total steady state time: 19.9660955553333
 Transient condition:     None
 Termination condition:   None
 Output analysis method:  None
+
+############################################################
+#               Simulation run measurements                #
+############################################################
+
+-------------------------- Source --------------------------
+
+- Utilisation
+
+Sample mean:          0.0
+
+- Service time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+----------------------- LoadBalancer -----------------------
+
+- Utilisation
+
+Sample mean:          0.24801636818297287
+
+- Service time
+
+Sample mean:          0.04951918506427962
+Sample variance:      1.4421741644506622E-5
+Sample std deviation: 0.003797596824902115
+Maximum:              0.05846529317424398
+Minimum:              0.04048278996961141
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              1.0
+Minimum:              0.0
 
