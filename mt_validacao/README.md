@@ -4,7 +4,7 @@
 
 ### Execução no Arena
 
-Como foi feita: 5 repetiçes de 100 segundos.
+Como foi feita: 5 repetições de 100 segundos.
 
 [Relatório](relatorio.pdf)
 
