@@ -8,9 +8,9 @@
 
 ### Execução no Arena
 
-Como foi feita: 5 repetições de 100 segundos.
+5 repetições de 100 segundos.
 
-[Relatório](relatorio.pdf)
+[Relatório geral](relatorio.pdf), [Relatório por replicação](relatorio_por_replicacao.pdf)
 
 ### Análise teórica
 
