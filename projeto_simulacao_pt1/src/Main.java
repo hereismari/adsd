@@ -20,24 +20,24 @@ public class Main {
 		Sim_system.link_ports("Source", "SourceOut1", "LoadBalancer", "LoadBalancerIn1");
 		
 		// Application Service 1 init
-		CPU cpuAS1 = new CPU("CPU_Application_Service_1", 0.5, 0.00002, 2, new double[]{0.9, 0.1});
+		CPU cpuAS1 = new CPU("CPU_Application_Service_1", 0.5, 0.00002, 2, new double[]{0.7, 0.3});
 		Disk diskAS1 = new Disk("Disk_Application_Service_1", 0.85, 0.0002, 1);
 		
 		// Application Service 2 init
-		CPU cpuAS2 = new CPU("CPU_Application_Service_2", 0.5, 0.00002, 2, new double[]{0.9, 0.1});
+		CPU cpuAS2 = new CPU("CPU_Application_Service_2", 0.5, 0.00002, 2, new double[]{0.7, 0.3});
 		Disk diskAS2 = new Disk("Disk_Application_Service_2", 0.85, 0.0002, 1);
 		
 		// Application Service 3 init - GPU based
-		CPU gpuAS3 = new CPU("GPU_Application_Service_3", 0.05, 0.00002, 2, new double[]{0.9, 0.1});
+		CPU gpuAS3 = new CPU("GPU_Application_Service_3", 0.05, 0.00002, 2, new double[]{0.7, 0.3});
 		Disk diskAS3 = new Disk("Disk_Application_Service_3", 0.85, 0.0002, 1);
 		
 		// Database Server init, having a cache
-		CPU cpuDBS = new CPU("CPU_Database_Server", 0.5, 0.00002, 5, new double[]{0.3, 0.2, 0.5});
+		CPU cpuDBS = new CPU("CPU_Database_Server", 0.5, 0.00002, 5, new double[]{0.05, 0.05, 0.8});
 		Cache cacheDB = new Cache("Cache_Database_Server", 0.085, 0.0002);
 		Disk diskDBS = new Disk("Disk_Database_Server", 0.85, 0.0002, 2);
 		
 		// Web service init
-		WebService ws = new WebService("Web_Service", 0.2, 0.00001);
+		CPU ws = new CPU("CPU_Web_Service", 0.2, 0.00001, 1, new double[] {});
 		
 		/**
 		 *  Connect ports
@@ -75,7 +75,7 @@ public class Main {
 		// DatabaseServer: Disk to CPU
 		Sim_system.link_ports("Disk_Database_Server", "Disk_Database_ServerOut1", "CPU_Database_Server", "CPU_Database_ServerIn4");
 		// DatabaseServer: CPU to WebService
-		Sim_system.link_ports("CPU_Database_Server", "CPU_Database_ServerOut3", "Web_Service", "Web_ServiceIn1");
+		Sim_system.link_ports("CPU_Database_Server", "CPU_Database_ServerOut3", "CPU_Web_Service", "CPU_Web_ServiceIn1");
 		
 		/**
 		 *  End of port connecting
