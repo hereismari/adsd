@@ -1,7 +1,5 @@
 package entities;
 
-import eduni.simjava.Sim_port;
-
 /**
  * Class representing a Cache memory entity on the system.
  * 

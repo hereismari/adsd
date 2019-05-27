@@ -1,6 +1,7 @@
 package entities;
 
-import eduni.simjava.*;
+import eduni.simjava.Sim_system;
+import eduni.simjava.distributions.Sim_uniform_obj;
 
 /**
  * Class representing a Load Balancer entity on the system. The load
@@ -26,27 +27,27 @@ public class LoadBalancer extends Entity {
 	public LoadBalancer(String name, double mean, double avg) {
 		super(name, mean, avg, 1, new double[]{0.25, 0.25, 0.5});
 	}
-
+	
+	@Override
 	public void body() {
-		while(Sim_system.running()){
-			Sim_event e = new Sim_event();
-			sim_get_next(e);
-			sim_process(sample());
-			sim_completed(e);
-			
-			double p = randomProb.sample();
-			
-			if (p < 0.25) {
-				//sim_schedule();
-			}
-
-			if (Sim_system.TIME_ELAPSED % 100 == 0) {
-				redistribute();
-			}
+		super.body();
+		
+		if (Sim_system.running() && Sim_system.sim_clock() % 100 == 0) {
+			redistribute();
 		}
 	}
 	
 	private void redistribute() {
+		double acumulatedProbability = 0.0;
+		Sim_uniform_obj twentyFivePercentRandom = new Sim_uniform_obj("UniformProbability", 0.0, 0.25);
 		
+		for (int i = 0; i < getProbPorts().length -1; i++) {
+			double p = twentyFivePercentRandom.sample();
+			getProbPorts()[i] = p;
+			acumulatedProbability += p;
+		}
+		
+		getProbPorts()[2] = 1.0 - acumulatedProbability;
+		defineProbRanges();
 	}
 }
