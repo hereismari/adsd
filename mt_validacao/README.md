@@ -2,6 +2,10 @@
 
 ![](miniteste_validacao.png)
 
+### Comparação dos resultados
+
+* [Comparação dos resultados](https://docs.google.com/document/d/1bP5dStXWoPQJWOjoQFaD4m4BA41aAe4d2btSyAz0P9w/edit?usp=sharing)
+
 ### Execução no Arena
 
 Como foi feita: 5 repetições de 100 segundos.
@@ -17,6 +21,3 @@ Print da planilha:
 
 [Planilha](https://docs.google.com/spreadsheets/d/13dRxwPDSOyrS1W-dvfQ4wxaxE2ltN8iHrgc7BdUZeKE/edit?usp=sharing)
 
-### Comparação dos resultados [WIP]
-
-* [Comparação dos resultados](https://docs.google.com/document/d/1bP5dStXWoPQJWOjoQFaD4m4BA41aAe4d2btSyAz0P9w/edit?usp=sharing)
