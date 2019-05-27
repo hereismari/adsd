@@ -4,7 +4,7 @@
 
 ### Comparação dos resultados
 
-* [Comparação dos resultados](https://docs.google.com/document/d/1bP5dStXWoPQJWOjoQFaD4m4BA41aAe4d2btSyAz0P9w/edit?usp=sharing)
+[Comparação dos resultados](https://docs.google.com/document/d/1bP5dStXWoPQJWOjoQFaD4m4BA41aAe4d2btSyAz0P9w/edit?usp=sharing)
 
 ### Execução no Arena
 
