@@ -2,6 +2,7 @@ package entities;
 
 import eduni.simjava.*;
 import eduni.simjava.distributions.Sim_normal_obj;
+import eduni.simjava.distributions.Sim_random_obj;
 
 /**
  * Abstract class representing the base entity on the system.
@@ -22,6 +23,8 @@ public abstract class Entity extends Sim_entity {
 
 	private String entityName;
 
+	protected static Sim_random_obj randomProb = new Sim_random_obj("RandomProbability");
+	
 	/**
 	 * Constructor of the base entity for this system implementation.
 	 *
@@ -41,7 +44,7 @@ public abstract class Entity extends Sim_entity {
         stat.add_measure(Sim_stat.QUEUE_LENGTH);
         set_stat(stat);
 
-        delay = new Sim_normal_obj(name.concat("Delay"), mean, avg);
+        delay = new Sim_normal_obj(name.concat("_Delay"), mean, avg);
 		add_generator(delay);
 
 		this.entityName = name;

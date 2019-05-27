@@ -10,7 +10,7 @@ public class Source extends Entity {      // The class for the source
   }
 
   public void body() {
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 1000; i++) {
       sim_schedule(outPorts[0], 0.0, 0);       // Send the load balancer a job
       sim_pause(sample());
     }

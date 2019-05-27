@@ -24,7 +24,7 @@ public class LoadBalancer extends Entity {
 	 * @param min double representing the minimum value used on the
 	 */
 	public LoadBalancer(String name, double mean, double avg) {
-		super(name, mean, avg, 1, new double[]{0.1, 0.5, 0.4});
+		super(name, mean, avg, 1, new double[]{0.25, 0.25, 0.5});
 	}
 
 	public void body() {
@@ -33,6 +33,20 @@ public class LoadBalancer extends Entity {
 			sim_get_next(e);
 			sim_process(sample());
 			sim_completed(e);
+			
+			double p = randomProb.sample();
+			
+			if (p < 0.25) {
+				//sim_schedule();
+			}
+
+			if (Sim_system.TIME_ELAPSED % 100 == 0) {
+				redistribute();
+			}
 		}
+	}
+	
+	private void redistribute() {
+		
 	}
 }
