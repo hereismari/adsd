@@ -9,6 +9,7 @@ package entities;
 public class Cache extends Entity {
 
 	public Cache(String name, double mean, double avg) {
-		super(name, mean, avg, 1, new double[]{0.7, 0.3});
+		// Hit probability: 0.2
+		super(name, mean, avg, 1, new double[]{0.2, 0.8});
 	}
 }
