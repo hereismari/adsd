@@ -14,6 +14,8 @@ import eduni.simjava.distributions.Sim_uniform_obj;
  */
 public class LoadBalancer extends Entity {
 
+	private int previousSimClock;
+
 	/**
 	 * Constructor of a Load Balancer entity for this system implementation.
 	 *
@@ -26,28 +28,34 @@ public class LoadBalancer extends Entity {
 	 */
 	public LoadBalancer(String name, double mean, double avg) {
 		super(name, mean, avg, 1, new double[]{0.25, 0.25, 0.5});
+		this.previousSimClock = -1;
 	}
-	
+
 	@Override
 	public void body() {
-		super.body();
-		
-		if (Sim_system.running() && Sim_system.sim_clock() % 100 == 0) {
-			redistribute();
+		while(Sim_system.running()){
+			bodyInsideLoop();
+			int currSimClock = (int)Sim_system.sim_clock();
+			if (currSimClock % 100 == 0 && previousSimClock % 100 == 0) {
+				redistribute();
+			}
+			previousSimClock = currSimClock;
 		}
 	}
 	
 	private void redistribute() {
 		double acumulatedProbability = 0.0;
 		Sim_uniform_obj twentyFivePercentRandom = new Sim_uniform_obj("UniformProbability", 0.0, 0.25);
+		double[] newProbPorts = new double[getProbPorts().length];
 		
-		for (int i = 0; i < getProbPorts().length -1; i++) {
+		for (int i = 0; i < newProbPorts.length -1; i++) {
 			double p = twentyFivePercentRandom.sample();
-			getProbPorts()[i] = p;
+			newProbPorts[i] = p;
 			acumulatedProbability += p;
 		}
 		
-		getProbPorts()[2] = 1.0 - acumulatedProbability;
+		newProbPorts[2] = 1.0 - acumulatedProbability;
+		setProbPorts(newProbPorts);
 		defineProbRanges();
 	}
 }
