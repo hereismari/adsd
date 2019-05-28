@@ -25,7 +25,7 @@ public abstract class Entity extends Sim_entity {
 	
 	private Pair<Double, Double>[] probRanges;
 
-	protected final Sim_random_obj randomProb = new Sim_random_obj("RandomProbability");
+	protected final Sim_random_obj randomProb;
 	
 	/**
 	 * Constructor of the base entity for this system implementation.
@@ -47,6 +47,9 @@ public abstract class Entity extends Sim_entity {
         set_stat(stat);
 
         delay = new Sim_normal_obj(name.concat("_Delay"), mean, avg);
+		add_generator(delay);
+
+		randomProb = new Sim_random_obj(name.concat("_RandomProbability"));
 		add_generator(delay);
 
 		this.entityName = name;
