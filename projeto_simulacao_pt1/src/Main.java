@@ -13,11 +13,8 @@ public class Main {
 		// interval around 0.2
 		Source source = new Source("Source", 0.2, 0.00001);
 
-		// TS around 0.2
+		// TS around 0.05
 		LoadBalancer loadBalancer = new LoadBalancer("LoadBalancer", 0.05, 0.00002);
-
-		// Connect source to LoadBalancer
-		Sim_system.link_ports("Source", "SourceOut1", "LoadBalancer", "LoadBalancerIn1");
 		
 		// Application Service 1 init
 		CPU cpuAS1 = new CPU("CPU_Application_Service_1", 0.5, 0.00002, 2, new double[]{0.7, 0.3});
@@ -28,12 +25,13 @@ public class Main {
 		Disk diskAS2 = new Disk("Disk_Application_Service_2", 0.85, 0.0002, 1);
 		
 		// Application Service 3 init - GPU based
+		// GPU is 10x faster than CPU
 		CPU gpuAS3 = new CPU("GPU_Application_Service_3", 0.05, 0.00002, 2, new double[]{0.7, 0.3});
 		Disk diskAS3 = new Disk("Disk_Application_Service_3", 0.85, 0.0002, 1);
 		
 		// Database Server init, having a cache
-		CPU cpuDBS = new CPU("CPU_Database_Server", 0.5, 0.00002, 5, new double[]{0.05, 0.05, 0.8});
-		Cache cacheDB = new Cache("Cache_Database_Server", 0.085, 0.0002);
+		CPU cpuDBS = new CPU("CPU_Database_Server", 0.5, 0.00002, 5, new double[]{0.1, 0.3, 0.6});
+		Cache cacheDB = new Cache("Cache_Database_Server", 0.001, 0.00000001);
 		Disk diskDBS = new Disk("Disk_Database_Server", 0.85, 0.0002, 2);
 		
 		// Web service init
@@ -42,6 +40,9 @@ public class Main {
 		/**
 		 *  Connect ports
 		 */
+
+		// Connect source to LoadBalancer
+		Sim_system.link_ports("Source", "SourceOut1", "LoadBalancer", "LoadBalancerIn1");
 		
 		// LoadBalancer to ApplicationServices CPU
 		Sim_system.link_ports("LoadBalancer", "LoadBalancerOut1", "CPU_Application_Service_1", "CPU_Application_Service_1In1");
