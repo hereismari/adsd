@@ -23,7 +23,7 @@ public abstract class Entity extends Sim_entity {
 
 	private String entityName;
 	
-	private Tuple<Double, Double>[] probRanges;
+	private Pair<Double, Double>[] probRanges;
 
 	protected final Sim_random_obj randomProb = new Sim_random_obj("RandomProbability");
 	
@@ -71,12 +71,16 @@ public abstract class Entity extends Sim_entity {
 		return delay.sample();
 	}
 	
-	public Tuple<Double, Double>[] getProbRanges() {
+	public Pair<Double, Double>[] getProbRanges() {
 		return probRanges;
 	}
 
 	public double[] getProbPorts() {
 		return probPorts;
+	}
+
+	public void setProbPorts(double[] newProbPorts) {
+		this.probPorts = newProbPorts;
 	}
 	
 	/**
@@ -90,41 +94,46 @@ public abstract class Entity extends Sim_entity {
 	
 	@SuppressWarnings("unchecked")
 	protected void defineProbRanges() {
-		this.probRanges = (Tuple<Double, Double>[]) new Tuple[probPorts.length];
+		this.probRanges = (Pair<Double, Double>[]) new Pair[probPorts.length];
 		
 		double acumulatedProb = 0.0;
 		for (int i = 0; i < probPorts.length; i++) {
-			Tuple<Double, Double> probRange = new Tuple<Double, Double>(acumulatedProb, acumulatedProb + probPorts[i]);
+			Pair<Double, Double> probRange = new Pair<Double, Double>(acumulatedProb, acumulatedProb + probPorts[i]);
 			acumulatedProb += probPorts[i];
 			probRanges[i] = probRange;
+		}
+	}
+
+	public void bodyInsideLoop() {
+		Sim_event e = new Sim_event();
+		sim_get_next(e);
+		sim_process(sample());
+		sim_completed(e);
+		
+		double p = randomProb.sample();
+		
+		Pair<Double, Double>[] probRanges = getProbRanges();
+		for (int i = 0; i < probRanges.length; i++) {
+			if (p > probRanges[i].f && p <= probRanges[i].s) {
+				sim_schedule(outPorts[i], 0.0, 0);
+			}
 		}
 	}
 	
 	@Override
 	public void body() {
 		while(Sim_system.running()){
-			Sim_event e = new Sim_event();
-			sim_get_next(e);
-			sim_process(sample());
-			sim_completed(e);
-			
-			double p = randomProb.sample();
-			
-			for (int i = 0; i < getProbRanges().length; i++) {
-				if (p > getProbRanges()[i].x && p <= getProbRanges()[i].y) {
-					sim_schedule(outPorts[i], 0.0, 0);
-				}
-			}
+			bodyInsideLoop();
 		}
 	}
 	
-	class Tuple<X, Y> {
-		public final X x;
-		public final Y y;
+	class Pair<X, Y> {
+		public final X f;  // first
+		public final Y s;  // second
 
-		public Tuple(X x, Y y) {
-			this.x = x;
-			this.y = y;
+		public Pair(X x, Y y) {
+			this.f = x;
+			this.s = y;
 		}
 	}
 }
