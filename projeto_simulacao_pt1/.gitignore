@@ -1,2 +1,5 @@
 *.class
 sim_trace
+/bin/
+.classpath
+.project

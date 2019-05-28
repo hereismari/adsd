@@ -2,6 +2,7 @@ package entities;
 
 import eduni.simjava.*;
 import eduni.simjava.distributions.Sim_normal_obj;
+import eduni.simjava.distributions.Sim_random_obj;
 
 /**
  * Abstract class representing the base entity on the system.
@@ -21,7 +22,11 @@ public abstract class Entity extends Sim_entity {
 	protected Sim_port[] outPorts;
 
 	private String entityName;
+	
+	private Pair<Double, Double>[] probRanges;
 
+	protected final Sim_random_obj randomProb;
+	
 	/**
 	 * Constructor of the base entity for this system implementation.
 	 *
@@ -41,13 +46,18 @@ public abstract class Entity extends Sim_entity {
         stat.add_measure(Sim_stat.QUEUE_LENGTH);
         set_stat(stat);
 
-        delay = new Sim_normal_obj(name.concat("Delay"), mean, avg);
+        delay = new Sim_normal_obj(name.concat("_Delay"), mean, avg);
+		add_generator(delay);
+
+		randomProb = new Sim_random_obj(name.concat("_RandomProbability"));
 		add_generator(delay);
 
 		this.entityName = name;
 		this.numInPorts = numInPorts;
 		this.probPorts = probPorts;
+		
 		initializePorts();
+		defineProbRanges();
 	}
 
 	private Sim_port[] createPorts(String name, int numberOfPorts) {
@@ -60,17 +70,73 @@ public abstract class Entity extends Sim_entity {
 		return ports;
 	}
 
+	public double sample() {
+		return delay.sample();
+	}
+	
+	public Pair<Double, Double>[] getProbRanges() {
+		return probRanges;
+	}
+
+	public double[] getProbPorts() {
+		return probPorts;
+	}
+
+	public void setProbPorts(double[] newProbPorts) {
+		this.probPorts = newProbPorts;
+	}
+	
 	/**
 	 * Initialize entity ports with proper names/identifiers and
 	 * registry the ports with the {@link}add_port() SimJava method.
 	 */
-	protected void initializePorts() {
+	private void initializePorts() {
 		this.inPorts = createPorts(entityName.concat("In"), numInPorts);
 		this.outPorts = createPorts(entityName.concat("Out"), probPorts.length);
 	}
-
-	public double sample() {
-		return delay.sample();
+	
+	@SuppressWarnings("unchecked")
+	protected void defineProbRanges() {
+		this.probRanges = (Pair<Double, Double>[]) new Pair[probPorts.length];
+		
+		double acumulatedProb = 0.0;
+		for (int i = 0; i < probPorts.length; i++) {
+			Pair<Double, Double> probRange = new Pair<Double, Double>(acumulatedProb, acumulatedProb + probPorts[i]);
+			acumulatedProb += probPorts[i];
+			probRanges[i] = probRange;
+		}
 	}
 
+	public void bodyInsideLoop() {
+		Sim_event e = new Sim_event();
+		sim_get_next(e);
+		sim_process(sample());
+		sim_completed(e);
+		
+		double p = randomProb.sample();
+		
+		Pair<Double, Double>[] probRanges = getProbRanges();
+		for (int i = 0; i < probRanges.length; i++) {
+			if (p > probRanges[i].f && p <= probRanges[i].s) {
+				sim_schedule(outPorts[i], 0.0, 0);
+			}
+		}
+	}
+	
+	@Override
+	public void body() {
+		while(Sim_system.running()){
+			bodyInsideLoop();
+		}
+	}
+	
+	class Pair<X, Y> {
+		public final X f;  // first
+		public final Y s;  // second
+
+		public Pair(X x, Y y) {
+			this.f = x;
+			this.s = y;
+		}
+	}
 }

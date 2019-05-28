@@ -6,17 +6,17 @@
 
 Version: SimJava 2.0
 
-Simulation date:         21 de Maio de 2019
-Simulation start time:   15h35min14s BST
-Simulation end time:     15h35min14s BST
+Simulation date:         28 de Maio de 2019
+Simulation start time:   1h31min19s BST
+Simulation end time:     1h31min20s BST
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    19.9660955553333
+Total simulated time:    864.8779340659975
 Total transient time:    0.0
-Total steady state time: 19.9660955553333
+Total steady state time: 864.8779340659975
 Transient condition:     None
 Termination condition:   None
 Output analysis method:  None
@@ -59,15 +59,315 @@ Minimum:              0.0
 
 - Utilisation
 
-Sample mean:          0.24801636818297287
+Sample mean:          0.057883665028836066
 
 - Service time
 
-Sample mean:          0.04951918506427962
-Sample variance:      1.4421741644506622E-5
-Sample std deviation: 0.003797596824902115
-Maximum:              0.05846529317424398
-Minimum:              0.04048278996961141
+Sample mean:          0.050062304626307966
+Sample variance:      1.8909945393338353E-5
+Sample std deviation: 0.004348556702325307
+Maximum:              0.06306935108216294
+Minimum:              0.03675141945516813
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              1.0
+Minimum:              0.0
+
+---------------- CPU_Application_Service_1 -----------------
+
+- Utilisation
+
+Sample mean:          0.08787330958074865
+
+- Service time
+
+Sample mean:          0.4999979371693402
+Sample variance:      2.1619935565981512E-5
+Sample std deviation: 0.004649724246230255
+Maximum:              0.5111246231084365
+Minimum:              0.48827910162494703
+
+- Waiting time
+
+Sample mean:          0.3868443980780059
+Sample variance:      0.18095344004884914
+Sample std deviation: 0.4253862245640415
+Maximum:              1.9588100496863206
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.06798687559459683
+Sample variance:      0.12109322517082738
+Sample std deviation: 0.3479845185792428
+Maximum:              4.0
+Minimum:              0.0
+
+---------------- Disk_Application_Service_1 ----------------
+
+- Utilisation
+
+Sample mean:          0.050073450322842446
+
+- Service time
+
+Sample mean:          0.8491651424858103
+Sample variance:      2.0647314724001831E-4
+Sample std deviation: 0.01436917350580813
+Maximum:              0.8909039434792874
+Minimum:              0.823290966994044
+
+- Waiting time
+
+Sample mean:          0.10788943807950298
+Sample variance:      0.043995805781907836
+Sample std deviation: 0.20975177182066385
+Maximum:              1.037987404578864
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0063620091637518585
+Sample variance:      0.006719272467592236
+Sample std deviation: 0.08197116851425405
+Maximum:              2.0
+Minimum:              0.0
+
+---------------- CPU_Application_Service_2 -----------------
+
+- Utilisation
+
+Sample mean:          0.144641245993276
+
+- Service time
+
+Sample mean:          0.5003880880615851
+Sample variance:      1.8198232075856807E-5
+Sample std deviation: 0.004265938592602665
+Maximum:              0.5121192248186901
+Minimum:              0.48905762413059506
+
+- Waiting time
+
+Sample mean:          0.33215337104233617
+Sample variance:      0.20399457054202902
+Sample std deviation: 0.45165758107445625
+Maximum:              2.1538064018764516
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.09601163295981087
+Sample variance:      0.1852726289271892
+Sample std deviation: 0.43043307136788317
+Maximum:              5.0
+Minimum:              0.0
+
+---------------- Disk_Application_Service_2 ----------------
+
+- Utilisation
+
+Sample mean:          0.07371542446582029
+
+- Service time
+
+Sample mean:          0.8500645869439564
+Sample variance:      2.1336344320449957E-4
+Sample std deviation: 0.014606965571414878
+Maximum:              0.8814497697406978
+Minimum:              0.8146394647771444
+
+- Waiting time
+
+Sample mean:          0.07079315733408231
+Sample variance:      0.01851986293015604
+Sample std deviation: 0.1360877030820788
+Maximum:              0.3744992100523632
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.006139001344496107
+Sample variance:      0.006101314006988382
+Sample std deviation: 0.07811090837385251
+Maximum:              1.0
+Minimum:              0.0
+
+---------------- GPU_Application_Service_3 -----------------
+
+- Utilisation
+
+Sample mean:          0.058514217160422315
+
+- Service time
+
+Sample mean:          0.04990893022800315
+Sample variance:      2.0783180157751534E-5
+Sample std deviation: 0.0045588573302694545
+Maximum:              0.06424991343772035
+Minimum:              0.0377649807332503
+
+- Waiting time
+
+Sample mean:          0.0022599601209155706
+Sample variance:      7.513847855272005E-5
+Sample std deviation: 0.008668245413733972
+Maximum:              0.052294496350462794
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0026496219551295896
+Sample variance:      0.002642601458624485
+Sample std deviation: 0.051406239491179326
+Maximum:              1.0
+Minimum:              0.0
+
+---------------- Disk_Application_Service_3 ----------------
+
+- Utilisation
+
+Sample mean:          0.2850752361429086
+
+- Service time
+
+Sample mean:          0.8501906251332936
+Sample variance:      1.9496565669407516E-4
+Sample std deviation: 0.013963010302011353
+Maximum:              0.8882112947413106
+Minimum:              0.8076659483524509
+
+- Waiting time
+
+Sample mean:          11.430407100196335
+Sample variance:      78.51983251351731
+Sample std deviation: 8.861141716140043
+Maximum:              31.615786364932433
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          3.8327004638367748
+Sample variance:      67.74664139844603
+Sample std deviation: 8.230834793533766
+Maximum:              38.0
+Minimum:              0.0
+
+------------------- CPU_Database_Server --------------------
+
+- Utilisation
+
+Sample mean:          0.9985816425739225
+
+- Service time
+
+Sample mean:          0.5000875668937836
+Sample variance:      1.8926446416916852E-5
+Sample std deviation: 0.004350453587491407
+Maximum:              0.5139386791271363
+Minimum:              0.4850766054090059
+
+- Waiting time
+
+Sample mean:          189.7844199113594
+Sample variance:      11983.681456487333
+Sample std deviation: 109.47000254173439
+Maximum:              366.2836197116334
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          378.96410612079353
+Sample variance:      48033.74796068107
+Sample std deviation: 219.16602829973687
+Maximum:              733.0
+Minimum:              0.0
+
+------------------ Cache_Database_Server -------------------
+
+- Utilisation
+
+Sample mean:          1.9035055455540474E-4
+
+- Service time
+
+Sample mean:          9.97757541649669E-4
+Sample variance:      1.0566135056482314E-8
+Sample std deviation: 1.0279170713867104E-4
+Maximum:              0.0012776926682818157
+Minimum:              7.393081399413859E-4
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              1.0
+Minimum:              0.0
+
+------------------- Disk_Database_Server -------------------
+
+- Utilisation
+
+Sample mean:          0.6875641527376223
+
+- Service time
+
+Sample mean:          0.8507282746173859
+Sample variance:      2.069796621757903E-4
+Sample std deviation: 0.014386787764327042
+Maximum:              0.897225269926686
+Minimum:              0.8079899018759988
+
+- Waiting time
+
+Sample mean:          0.43558083106711676
+Sample variance:      0.267686442794355
+Sample std deviation: 0.517384231296582
+Maximum:              2.60521616899689
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.3520392750506696
+Sample variance:      0.3869976856962871
+Sample std deviation: 0.6220913805031276
+Maximum:              4.0
+Minimum:              0.0
+
+--------------------- CPU_Web_Service ----------------------
+
+- Utilisation
+
+Sample mean:          0.23127354347652931
+
+- Service time
+
+Sample mean:          0.20002338448610332
+Sample variance:      1.0302160115673433E-5
+Sample std deviation: 0.003209697823109433
+Maximum:              0.20987696791988242
+Minimum:              0.1882427592014153
 
 - Waiting time
 

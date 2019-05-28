@@ -1,6 +1,5 @@
 package entities;
 
-import eduni.simjava.Sim_port;
 
 /**
  * Class representing a CPU entity on the system.
