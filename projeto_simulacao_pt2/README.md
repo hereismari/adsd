@@ -10,6 +10,7 @@
 
 * Baixa utilização: 5 repetições de 500 segundos.  [Relatório geral](relatorio_baixa_utilizacao.pdf), [Relatório por replicação](relatorio_baixa_utilizacao_por_replicacao.pdf)
 
+* Media utilização: 10 repetiçoes de 200 segundos.  [Relatório geral](relatorio_media_utilizacao.pdf), [Relatório por replicação](relatorio_media_utilizacao_por_replicacao.pdf)
 
 ### Análise teórica
 
