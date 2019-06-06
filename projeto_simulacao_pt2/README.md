@@ -8,9 +8,8 @@
 
 ### Execução no Arena (TODO)
 
-5 repetições de 100 segundos.
+* Baixa utilização: 5 repetições de 500 segundos.  [Relatório geral](relatorio_baixa_utilizacao.pdf), [Relatório por replicação](relatorio_baixa_utilizacao_por_replicacao.pdf)
 
-[Relatório geral](relatorio.pdf), [Relatório por replicação](relatorio_por_replicacao.pdf)
 
 ### Análise teórica
 
