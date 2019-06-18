@@ -2,7 +2,7 @@
 
 ![](diagrama_anotado.png)
 
-### Comparação dos resultados (TODO)
+### Comparação dos resultados
 
 [Comparação dos resultados](https://docs.google.com/document/d/1BGAIX-sUIIddSweY2hcpWGHzNDtnFRXyqQuQo0CSb6A/edit?usp=sharing)
 
