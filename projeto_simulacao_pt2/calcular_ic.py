@@ -1,3 +1,5 @@
+# Baseado em: https://www.socscistatistics.com/confidenceinterval/default2.aspx
+
 import math
 
 def interval(std, n=3, t=4.3):
