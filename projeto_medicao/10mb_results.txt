@@ -1,0 +1,48 @@
+10mb - wmv - 10f:
+    time: 10.636s
+    cpu_usage: 148%
+    compression_ratio: 0.568
+
+10mb - wmv - 25f:
+    time: 10.628s
+    cpu_usage: 149%
+    compression_ratio: 0.568
+
+10mb - wmv - 100f:
+    time: 10.776s
+    cpu_usage: 148%
+    compression_ratio: 0.568
+
+============================
+
+10mb - avi - 10f:
+    time: 10.916s
+    cpu_usage: 203%
+    compression_ratio: 0.564
+
+10mb - avi - 25f:
+    time: 10.960s
+    cpu_usage: 202%
+    compression_ratio: 0.564
+
+10mb - avi - 100f:
+    time: 10.944s
+    cpu_usage: 209%
+    compression_ratio: 0.564
+
+============================
+
+10mb - mpeg - 10f:
+    time: 10.496s
+    cpu_usage: 199%
+    compression_ratio: 0.627
+
+10mb - mpeg - 25f:
+    time: 10.508s
+    cpu_usage: 206%
+    compression_ratio: 0.627
+
+10mb - mpeg - 100f:
+    time: 10.476s
+    cpu_usage: 206%
+    compression_ratio: 0.627
