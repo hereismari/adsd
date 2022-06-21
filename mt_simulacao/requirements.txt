@@ -1,4 +1,4 @@
 namegenerator
-numpy==1.16.3
+numpy==1.22.0
 pylint
 pytest
